@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hear, Read This</title>
+    <!--<link href="style.css" rel="stylesheet" />-->
+</head>
+<body>
+<p>You will be redirected to <a href="http://herereadthis.com">herereadthis.com</a> in
+    <span id="timerCount">5</span> second(s).</p>
+<script>
+    var counter = 5;
+    var timerCount = document.getElementById('timerCount');
+
+    var timer = function() {
+        counter = counter - 1;
+        if (counter <= 0) {
+            clearInterval(foo);
+            window.location.assign('http://herereadthis.com');
+        } else {
+            timerCount.textContent = counter;
+        }
+    };
+
+    foo = setInterval(timer, 1000);
+
+</script>
+</body>
+</html>
