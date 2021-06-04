@@ -11,12 +11,13 @@ body {
     font-size: 1em;
     line-height: 1;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /*font-family: 'IC Century'*/
 }
 
 h1 {
     font-weight: 300;
     font-size: 6rem;
-    line-height: 12rem;
+    line-height: 9rem;
     margin: 0;
     padding: 0;
 }
@@ -35,11 +36,6 @@ ul, ol {
     padding: 0;
 }
 
-p, li {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-}
-
 p {
     margin: 0;
     padding: 0;
@@ -48,6 +44,11 @@ p {
 li {
     margin: 0 0 0 5rem;
     padding: 0 0 0 0;
+}
+
+p, li {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
 }
 
 li p {
@@ -70,9 +71,35 @@ section {
     margin: 0 auto;
 }
 
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 769px) {
+    #container {
+        margin: 0 auto;
+        width: 72rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     #container {
         margin: 0 2rem;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    #container {
+        margin: 0 4rem;
+        width: auto;
+    }
+    h1 {
+        font-size: 8rem;
+        line-height: 12rem;
+    }
+    h2 {
+        font-size: 4rem;
+        line-height: 8rem;
+    }
+    p, li {
+        font-size: 2rem;
+        line-height: 4rem;
     }
 }
 
@@ -82,9 +109,6 @@ section {
 
 @media only screen and (min-width: 640px) {
 
-}
-
-@media only screen and (min-width: 768px) {
 }
 
 @media only screen and (min-width: 1024px) {
