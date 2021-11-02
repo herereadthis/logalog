@@ -4,6 +4,7 @@ html {
 }
 
 body {
+    margin: 0;
     padding: 0;
     font-size: 100%;
     position: relative;
@@ -15,10 +16,10 @@ body {
 }
 
 h1 {
-    font-weight: 300;
+    font-weight: 100;
     font-size: 6rem;
-    line-height: 9rem;
-    margin: 0;
+    line-height: 10.8rem;
+    margin: 0 0 0 3.6rem;
     padding: 0;
 }
 
@@ -26,8 +27,8 @@ h1 {
 h2 {
     font-weight: 200;
     font-size: 3rem;
-    line-height: 5rem;
-    margin: 0;
+    line-height: 4.8rem;
+    margin: 1.8rem 0 0 0;
     padding: 0rem 0 0rem 0;
 }
 
@@ -41,18 +42,18 @@ p {
     padding: 0;
 }
 
-li {
-    margin: 0 0 0 3rem;
+ol li, ul li {
+    margin: 0 0 0 3.6rem;
     padding: 0 0 0 0;
 }
 
 li li {
-    margin-left: 1.5rem;
+    margin-left: 1.8rem;
 }
 
 p, li {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 2rem;
+    line-height: 3.6rem;
 }
 
 li p {
@@ -68,44 +69,23 @@ img {
 }
 
 section {
-    padding-bottom: 4rem;
+    padding: 0 0 3.6rem 3.6rem;
+    width: 48rem;
 }
 
 #container {
     margin: 0 auto;
 }
 
-@media only screen and (min-width: 769px) {
-    #container {
-        margin: 0 auto;
-        width: 72rem;
-    }
+#content {
+    /* margin: 0 3.6rem; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-@media only screen and (max-width: 768px) {
-    #container {
-        margin: 0 2rem;
-    }
-}
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    #container {
-        margin: 0 4rem;
-        width: auto;
-    }
-    h1 {
-        font-size: 8rem;
-        line-height: 12rem;
-    }
-    h2 {
-        font-size: 4rem;
-        line-height: 8rem;
-    }
-    p, li {
-        font-size: 2rem;
-        line-height: 4rem;
-    }
-}
 
 @media only screen and (min-width: 480px) {
 
@@ -122,4 +102,112 @@ section {
 
 }
 
+/**
+ * {@Link https://stackoverflow.com/questions/58087446/}
+ */
+
+/* 2340x1080 pixels at 476ppi */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    h1 {
+        font-size: 12rem;
+        line-height: 21.2rem;
+    }
+    
+    h2 {
+        font-size: 6rem;
+        line-height: 9.6rem;
+        margin: 3.6rem 0 0 0;
+    }
+
+    ol li {
+        margin-left: 7.2rem;
+    }
+
+    p, li {
+        font-size: 4rem;
+        line-height: 7.2rem;
+    }
+
+    #content {
+        /* margin: 0 3.6rem; */
+        display: block;
+    }
+    
+    section {
+        width: auto;
+        padding-right: 3.6rem;
+    }
+}
+
+/* 2532x1170 pixels at 460ppi */
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3){
+    h1 {
+        font-size: 12rem;
+        line-height: 21.2rem;
+    }
+    
+    h2 {
+        font-size: 6rem;
+        line-height: 9.6rem;
+        margin: 3.6rem 0 0 0;
+    }
+
+    ol li {
+        margin-left: 7.2rem;
+    }
+
+    p, li {
+        font-size: 4rem;
+        line-height: 7.2rem;
+    }
+
+    #content {
+        /* margin: 0 3.6rem; */
+        display: block;
+    }
+    
+    section {
+        width: auto;
+        padding-right: 3.6rem;
+    }
+}
+
+/* 2778x1284 pixels at 458ppi */
+@media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) {
+    h1 {
+        font-size: 12rem;
+        line-height: 21.2rem;
+    }
+    
+    h2 {
+        font-size: 6rem;
+        line-height: 9.6rem;
+        margin: 3.6rem 0 0 0;
+    }
+
+    ol li {
+        margin-left: 7.2rem;
+    }
+
+    p, li {
+        font-size: 4rem;
+        line-height: 7.2rem;
+    }
+
+    #content {
+        /* margin: 0 3.6rem; */
+        display: block;
+    }
+    
+    section {
+        width: auto;
+        padding-right: 3.6rem;
+    }
+}
 
