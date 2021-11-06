@@ -4,7 +4,6 @@ const express = require('express');
 // Import middlewares
 const auth = require('../middleware/auth');
 const roles = require('../middleware/roles');
-const { admin, editor, viewer } = require('../middleware/roles');
 
 // Dummy data
 let messages = [
@@ -20,14 +19,14 @@ const router = express.Router();
 
 // route handlers
 
-router.get('/', [auth, viewer], (req, res) => {
+router.get('/', [auth, roles.viewer], (req, res) => {
     res.send({
         ok: true,
         result: messages
     });
 });
 
-router.post('/', [auth, editor], async (req, res) => {
+router.post('/', [auth, roles.editor], async (req, res) => {
     // Make a new message and add it
     messages.push({
         id: messages.length + 1, 
@@ -41,7 +40,7 @@ router.post('/', [auth, editor], async (req, res) => {
     });
 });
 
-router.put('/', [auth, editor], async (req, res) => {
+router.put('/', [auth, roles.editor], async (req, res) => {
     // Update the message
     // Code not implemented
     // Send response
@@ -51,7 +50,7 @@ router.put('/', [auth, editor], async (req, res) => {
     });
 });
 
-router.delete('/', [auth, admin], async (req, res) => {
+router.delete('/', [auth, roles.admin], async (req, res) => {
     // Delete the message
     messages = messages.filter((message) => {message.id !== req.body.id});
 

@@ -1,42 +1,34 @@
-const admin = (request, response, next) => {
-    if (!request.user.roles.includes('admin')) {
-        return response.status(403).send({
-            ok: false,
-            error: 'Access denied.'
-        });
-    }
-
-    next();
+const admin = (request, res, next) => {
+    if (!request.user.roles.includes("admin")) {
+        return res.status(403).send({
+        ok: false,
+        error: "Access denied."
+    });
 }
 
-const editor = (request, response, next) => {
-    if (!request.user.roles.includes('editor')) {
-        return response.status(403).send({
-            ok: false,
-            error: 'Access denied.'
-        });
-    }
-
     next();
-}
-
-const viewer = (request, response, next) => {
-    console.log('\n***\n');
-    console.log(request.user);
-
-
-    if (!request.user.roles.includes('viewer')) {
-        return response.status(403).send({
-            ok: false,
-            error: 'Access denied.'
-        });
-    }
-
-    next();
-}
-
-module.exports = {
-    admin,
-    editor,
-    viewer 
 };
+
+const editor = (request, res, next) => {
+    if (!request.user.roles.includes("editor")) {
+        return res.status(403).send({
+        ok: false,
+        error: "Access denied."
+    });
+}
+
+    next();
+};
+
+const viewer = (request, res, next) => {
+    if (!request.user.roles.includes("viewer")) {
+        return res.status(403).send({
+        ok: false,
+        error: "Access denied."
+    });
+}
+
+    next();
+};
+
+module.exports = { admin, editor, viewer };
