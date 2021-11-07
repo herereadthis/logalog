@@ -29,19 +29,12 @@ router.post('/', async (request, response) => {
         throw new Error('Invalid email or password.');
     }
 
-    console.log('\n^^^\n');
-    console.log({
-        id: user._id,
-        roles: user.roles,
-    });
-
     const token = jwt.sign({
         id: user._id,
         roles: user.roles,
     }, 'jwtPrivateKey', { expiresIn: '15m' });
 
     response.send({
-        ok: true,
         token
     });
 });

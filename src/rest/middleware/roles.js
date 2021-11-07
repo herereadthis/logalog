@@ -1,34 +1,35 @@
-const admin = (request, res, next) => {
+const admin = (request, response, next) => {
     if (!request.user.roles.includes("admin")) {
-        return res.status(403).send({
-        ok: false,
-        error: "Access denied."
-    });
-}
+        return response.status(403).send({
+            error: "Access denied."
+        });
+    }
 
     next();
 };
 
-const editor = (request, res, next) => {
+const editor = (request, response, next) => {
     if (!request.user.roles.includes("editor")) {
-        return res.status(403).send({
-        ok: false,
-        error: "Access denied."
-    });
-}
+        return response.status(403).send({
+            error: "Access denied."
+        });
+    }
 
     next();
 };
 
-const viewer = (request, res, next) => {
+const viewer = (request, response, next) => {
     if (!request.user.roles.includes("viewer")) {
-        return res.status(403).send({
-        ok: false,
-        error: "Access denied."
-    });
-}
+        return response.status(403).send({
+            error: "Access denied."
+        });
+    }
 
     next();
 };
 
-module.exports = { admin, editor, viewer };
+module.exports = {
+    admin,
+    editor,
+    viewer
+};

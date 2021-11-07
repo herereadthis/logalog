@@ -35,7 +35,6 @@ router.post('/', [auth, roles.editor], async (req, res) => {
 
     // Send response
     res.status(200).send({
-        ok: true,
         result: messages
     });
 });
@@ -45,7 +44,6 @@ router.put('/', [auth, roles.editor], async (req, res) => {
     // Code not implemented
     // Send response
     res.status(200).send({
-        ok: true,
         result: messages
     });
 });
@@ -56,7 +54,6 @@ router.delete('/', [auth, roles.admin], async (req, res) => {
 
     // Send response
     res.status(200).send({
-        ok: true,
         result: messages
     });
 });
