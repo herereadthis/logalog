@@ -18,3 +18,7 @@ Tiny little projects.
 
 * Link to [README](./src/binta)
 * Static website giving a primer for tourists in Vietnam
+
+### rest-api
+
+* Very barebones REST API demo using JSON web tokens to authenticate requests

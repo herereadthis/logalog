@@ -19,41 +19,42 @@ const router = express.Router();
 
 // route handlers
 
-router.get('/', [auth, roles.viewer], (req, res) => {
-    res.send({
-        ok: true,
+router.get('/', [auth, roles.viewer], (request, response) => {
+    response.send({
         result: messages
     });
 });
 
-router.post('/', [auth, roles.editor], async (req, res) => {
+router.post('/', [auth, roles.editor], async (request, response) => {
+    const {
+        name,
+        content
+    } = request.body;
     // Make a new message and add it
     messages.push({
         id: messages.length + 1, 
-        name: req.body.name, content: req.body.content
+        name,
+        content
     });
 
     // Send response
-    res.status(200).send({
+    response.status(200).send({
         result: messages
     });
 });
 
-router.put('/', [auth, roles.editor], async (req, res) => {
-    // Update the message
-    // Code not implemented
-    // Send response
-    res.status(200).send({
-        result: messages
-    });
-});
+/** @todo not implemented */
+// router.put('/', [auth, roles.editor], async (request, response) => {
+//     response.status(200).send({
+//         result: messages
+//     });
+// });
 
-router.delete('/', [auth, roles.admin], async (req, res) => {
+router.delete('/', [auth, roles.admin], async (request, response) => {
     // Delete the message
-    messages = messages.filter((message) => {message.id !== req.body.id});
+    messages = messages.filter((message) => {message.id !== request.body.id});
 
-    // Send response
-    res.status(200).send({
+    response.status(200).send({
         result: messages
     });
 });
