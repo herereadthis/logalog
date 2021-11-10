@@ -149,8 +149,8 @@ section {
     and (device-height: 844px) 
     and (-webkit-device-pixel-ratio: 3){
     h1 {
-        font-size: 12rem;
-        line-height: 21.2rem;
+        font-size: 9rem;
+        line-height: 15.9rem;
     }
     
     h2 {
@@ -202,6 +202,40 @@ section {
     p, li {
         font-size: 4rem;
         line-height: 7.2rem;
+    }
+
+    #content {
+        /* margin: 0 3.6rem; */
+        display: block;
+    }
+    
+    section {
+        width: auto;
+        padding-right: 3.6rem;
+    }
+}
+
+@media only screen 
+    and (device-width: 412px) 
+    and (device-height: 869px) {
+    h1 {
+        font-size: 10em;
+        line-height: 18rem;
+    }
+    
+    h2 {
+        font-size: 4rem;
+        line-height: 6.4rem;
+        margin: 3.6rem 0 0 0;
+    }
+
+    ol li {
+        margin-left: 3.6rem;
+    }
+
+    p, li {
+        font-size: 2rem;
+        line-height: 3.6rem;
     }
 
     #content {
