@@ -15,26 +15,35 @@ body {
     /*font-family: 'IC Century'*/
 }
 
+.centerThis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 .titleText {
     font-family: 'Saira Extra Condensed', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 12vh;
+    margin: 0;
+    padding: 0;
 }
 
 .octopus {
     font-size: 24vh;
-    line-height: 16vh;
+    line-height: 14vh;
 }
 
 .appreciationDay {
-    font-size: 12vh;
+    font-size: 13vh;
     line-height: 12vh;
 }
 
 .april4 {
     font-size: 12vh;
     line-height: 12vh;
+    margin-top: 8vh;
 }
 
 .prayerContainer {
