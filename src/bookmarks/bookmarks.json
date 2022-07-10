@@ -103,6 +103,75 @@
         "added_ts": "2022-07-09T00:45Z"
     },
     {
+        "url": "https://www.rand.org/content/dam/rand/pubs/perspectives/PE100/PE198/RAND_PE198.pdf",
+        "source": "https://www.rand.org/",
+        "title": "The Russian \"Firehose of Falsehood\" Propaganda Model",
+        "description": "Russian propaganda entertains, confuses and overwhelms the audience. It is also rapid, continuous, and repetitive, and it lacks commitment to consistency.",
+        "tags": ["politics", "russia"],
+        "added_ts": "2022-07-09T02:50Z"
+    },
+    {
+        "url": "https://en.wikipedia.org/wiki/Sinop_D",
+        "source": "https://en.wikipedia.org",
+        "title": "Sinop D",
+        "description": "Sinop D is an ancient Black Sea shipwreck located to the east of Sinop, Turkey. The vessel's entire hull and cargo are intact, buried in sediments.",
+        "tags": ["archeology"],
+        "added_ts": "2022-07-09T02:55Z"
+    },
+    {
+        "url": "https://www.makeuseof.com/raspberry-pi-pico-projects/",
+        "source": "https://www.makeuseof.com",
+        "title": "10 Projects for a Raspberry Pi Pico",
+        "description": "Raspberry Pi Pico microcontroller in projects",
+        "tags": ["raspbery pi", "pico", "diy"],
+        "added_ts": "2022-07-09T02:57Z"
+    },
+    {
+        "url": "http://www.alexluyckx.com/blog/index.php/2020/09/28/developer-review-blog-no-09-ilford-perceptol/",
+        "source": "http://www.alexluyckx.com",
+        "author": "Andrew Luyckk",
+        "archive": "https://web.archive.org/web/20220710032706/http://www.alexluyckx.com/blog/index.php/2020/09/28/developer-review-blog-no-09-ilford-perceptol/",
+        "title": "Developer Review Blog No. 09 – Ilford Perceptol",
+        "description": "Ilford Perceptol developer is for low films, reviewed with various films",
+        "tags": ["ilford", "photography"],
+        "added_ts": "2022-07-09T03:26Z"
+    },
+    {
+        "url": "http://www.alexluyckx.com/blog/index.php/2020/08/24/developer-review-blog-no-08-ilford-microphen/",
+        "source": "http://www.alexluyckx.com",
+        "author": "Andrew Luyckk",
+        "archive": "https://web.archive.org/web/20220710032722/http://www.alexluyckx.com/blog/index.php/2020/08/24/developer-review-blog-no-08-ilford-microphen/",
+        "title": "Developer Review Blog No. 08 – Ilford Microphen",
+        "description": "Ilford Microphen developer is for fast films and pushing, reviewed with various films",
+        "tags": ["ilford", "photography"],
+        "added_ts": "2022-07-09T03:28Z"
+    },
+    {
+        "url": "http://weltenschule.de/TableHooters/instruments.html",
+        "source": "http://weltenschule.de/",
+        "title": "TableHooters - my instrument hacks and collection",
+        "author": "Christian Oliver Windler",
+        "description": "Reference for many cheap keyboards and synthesizers across many brands, and tips for circuit bending",
+        "tags": ["yamaha", "casio", "circuit bending", "synthesizers"],
+        "added_ts": "2022-07-09T03:32Z"
+    },
+    {
+        "url": "https://en.wikipedia.org/wiki/No_Longer_Human",
+        "source": "https://en.wikipedia.org",
+        "title": "No Longer Human",
+        "description": "No Longer Human (人間失格, Ningen Shikkaku) is a 1948 Japanese novel by Osamu Dazai. It is considered Dazai's masterpiece and ranks as the second-best selling novel ever in Japan",
+        "tags": ["books", "japan"],
+        "added_ts": "2022-07-09T03:36Z"
+    },
+    {
+        "url": "asdf",
+        "source": "asdf",
+        "title": "asdf",
+        "description": "asdf",
+        "tags": ["asdf"],
+        "added_ts": "2022-07-09T00:35Z"
+    },
+    {
         "url": "asdf",
         "source": "asdf",
         "title": "asdf",
