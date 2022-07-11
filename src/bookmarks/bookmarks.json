@@ -149,6 +149,7 @@
     {
         "url": "http://weltenschule.de/TableHooters/instruments.html",
         "source": "http://weltenschule.de/",
+        "archive": "https://web.archive.org/web/20220710033009/http%3A%2F%2Fweltenschule.de%2FTableHooters%2Finstruments.html",
         "title": "TableHooters - my instrument hacks and collection",
         "author": "Christian Oliver Windler",
         "description": "Reference for many cheap keyboards and synthesizers across many brands, and tips for circuit bending",
@@ -164,12 +165,32 @@
         "added_ts": "2022-07-09T03:36Z"
     },
     {
-        "url": "asdf",
-        "source": "asdf",
-        "title": "asdf",
+        "url": "https://www.fairfaxcounty.gov/police/sites/police/files/assets/generalorders/go-603.1.pdf",
+        "title": "FCPD General Order 603.1",
         "description": "asdf",
+        "page_ts": "2016-06-01",
         "tags": ["asdf"],
-        "added_ts": "2022-07-09T00:35Z"
+        "added_ts": "2022-07-10T02:21Z"
+    },
+    {
+        "url": "https://newrepublic.com/article/167019/kavanaugh-mortons-constitutional-right-dinner",
+        "source": "https://newrepublic.com/",
+        "title": "There Is No Constitutional Right to Eat Dinner",
+        "description": "Satirical argument dismissing a claim by Morton's restaurant stating that Justice Brett Kavanaugh had a right to eat dinner",
+        "tags": ["Kavanaugh", "politics", "scotus"],
+        "page_ts": "2022-07-08",
+        "author": "Matt Ford",
+        "added_ts": "2022-07-10T03:47Z"
+    },
+    {
+        "url": "https://www.rollingstone.com/music/music-news/kacey-musgraves-toms-one-hour-photo-878524/",
+        "source": "https://www.rollingstone.com/",
+        "title": "How Kacey Musgraves Revived a Quiet Los Angeles Photo Shop",
+        "description": "Kacey Musgraves did a photoshoot Tom's 1 Hour Photo in Los Angeles",
+        "tags": ["photography"],
+        "page_ts": "2019-08-29",
+        "author": "Tim Chan",
+        "added_ts": "2022-07-10T03:53Z"
     },
     {
         "url": "asdf",
@@ -177,14 +198,6 @@
         "title": "asdf",
         "description": "asdf",
         "tags": ["asdf"],
-        "added_ts": "2022-07-09T00:35Z"
-    },
-    {
-        "url": "asdf",
-        "source": "asdf",
-        "title": "asdf",
-        "description": "asdf",
-        "tags": ["asdf"],
-        "added_ts": "2022-07-09T00:35Z"
+        "added_ts": "2022-07-10T03:47Z"
     }
 ]
