@@ -1,7 +1,7 @@
 name: Github App Test
 
 on:
-  workflow_dispatch:
+  workflow_dispatch
 
 jobs:
   demo_app_authentication:
