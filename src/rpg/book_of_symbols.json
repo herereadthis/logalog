@@ -1,272 +1,911 @@
 [
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Breath",
-        "page": 16,
-        "weight": 2
-    },
-    {
-        "name": "Star",
-        "page": 18,
-        "weight": 4
-    },
-    {
-        "name": "Sun",
-        "page": 22,
-        "weight": 4
-    },
-    {
-        "name": "Moon",
-        "page": 26,
-        "weight": 4
-    },
-    {
-        "name": "Crescent",
-        "page": 30,
-        "weight": 2
-    },
-    {
-        "name": "Eclipse",
-        "page": 32,
-        "weight": 2
-    },
-    {
-        "name": "Comet",
-        "page": 34,
-        "weight": 2
-    },
-    {
-        "name": "Ocean",
-        "page": 36,
-        "weight": 4
-    },
-    {
-        "name": "River",
-        "page": 40,
-        "weight": 4
-    },
-    {
-        "name": "Lake/Pond",
-        "page": 44,
-        "weight": 2
-    },
-    {
-        "name": "Whirlpool",
-        "page": 46,
-        "weight": 2
-    },
-    {
-        "name": "Waterfall",
-        "page": 48,
-        "weight": 2
-    },
-    {
-        "name": "Flood",
-        "page": 50,
-        "weight": 2
-    },
-    {
-        "name": "Bubble",
-        "page": 52,
-        "weight": 2
-    },
-    {
-        "name": "Air",
-        "page": 54,
-        "weight": 2
-    },
-    {
-        "name": "Sky",
-        "page": 56,
-        "weight": 2
-    },
-    {
-        "name": "Cloud",
-        "page": 58,
-        "weight": 2
-    },
-    {
-        "name": "Wind",
-        "page": 60,
-        "weight": 2
-    },
-    {
-        "name": "Rain",
-        "page": 62,
-        "weight": 4
-    },
-    {
-        "name": "Storm",
-        "page": 66,
-        "weight": 66
-    },
-    {
-        "name": "Thunder",
-        "page": 68,
-        "weight": 2
-    },
-    {
-        "name": "Lightning",
-        "page": 70,
-        "weight": 2
-    },
-    {
-        "name": "Rainbow",
-        "page": 72,
-        "weight": 2
-    },
-    {
-        "name": "Dew",
-        "page": 74,
-        "weight": 2
-    },
-    {
-        "name": "Fog",
-        "page": 76,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    },
-    {
-        "name": "Egg",
-        "page": 14,
-        "weight": 2
-    }
+  {
+    "group": "Creation and Cosmos",
+    "categories": [
+      {
+        "name": "Creation and Cosmos",
+        "symbols": [
+          {
+            "name": "Egg",
+            "page": 14
+          },
+          {
+            "name": "Breath",
+            "page": 16
+          },
+          {
+            "name": "Star",
+            "page": 18
+          },
+          {
+            "name": "Sun",
+            "page": 22
+          },
+          {
+            "name": "Moon",
+            "page": 26
+          },
+          {
+            "name": "Crescent",
+            "page": 30
+          },
+          {
+            "name": "Eclipse",
+            "page": 32
+          },
+          {
+            "name": "Comet",
+            "page": 34
+          }
+        ]
+      },
+      {
+        "name": "Water",
+        "symbols": [
+          {
+            "name": "Ocean",
+            "page": 36
+          },
+          {
+            "name": "River",
+            "page": 40
+          },
+          {
+            "name": "Lake/Pond",
+            "page": 44
+          },
+          {
+            "name": "Whirlpool",
+            "page": 46
+          },
+          {
+            "name": "Waterfall",
+            "page": 48
+          },
+          {
+            "name": "Flood",
+            "page": 50
+          },
+          {
+            "name": "Bubble",
+            "page": 52
+          }
+        ]
+      },
+      {
+        "name": "Air - Wind and Weather",
+        "symbols": [
+          {
+            "name": "Air",
+            "page": 54
+          },
+          {
+            "name": "Sky",
+            "page": 56
+          },
+          {
+            "name": "Cloud",
+            "page": 58
+          },
+          {
+            "name": "Wind",
+            "page": 60
+          },
+          {
+            "name": "Rain",
+            "page": 62
+          },
+          {
+            "name": "Storm",
+            "page": 66
+          },
+          {
+            "name": "Thunder",
+            "page": 68
+          },
+          {
+            "name": "Lightning",
+            "page": 70
+          },
+          {
+            "name": "Rainbow",
+            "page": 72
+          },
+          {
+            "name": "Dew",
+            "page": 74
+          },
+          {
+            "name": "Fog",
+            "page": 76
+          },
+          {
+            "name": "Snow",
+            "page": 78
+          }
+        ]
+      },
+      {
+        "name": "Fire - Light and Darkness",
+        "symbols": [
+          {
+            "name": "Fire",
+            "page": 82
+          },
+          {
+            "name": "Spark",
+            "page": 86
+          },
+          {
+            "name": "Dawn",
+            "page": 88
+          },
+          {
+            "name": "Sunrise",
+            "page": 90
+          },
+          {
+            "name": "Solstice",
+            "page": 92
+          },
+          {
+            "name": "Dusk",
+            "page": 94
+          },
+          {
+            "name": "Sunset",
+            "page": 96
+          },
+          {
+            "name": "Night",
+            "page": 98
+          },
+          {
+            "name": "Darkness",
+            "page": 100
+          }
+        ]
+      },
+      {
+        "name": "Earth",
+        "symbols": [
+          {
+            "name": "Stone",
+            "page": 104
+          },
+          {
+            "name": "Mountain",
+            "page": 108
+          },
+          {
+            "name": "Valley",
+            "page": 110
+          },
+          {
+            "name": "Cave",
+            "page": 112
+          },
+          {
+            "name": "Salt",
+            "page": 114
+          },
+          {
+            "name": "Desert",
+            "page": 116
+          },
+          {
+            "name": "Forest/Jungle",
+            "page": 118
+          },
+          {
+            "name": "Marsh",
+            "page": 120
+          },
+          {
+            "name": "Beach",
+            "page": 112
+          },
+          {
+            "name": "Island",
+            "page": 124,
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Plant World",
+    "categories": [
+      {
+        "name": "Trees",
+        "symbols": [
+          {
+            "name": "Tree",
+            "page": 128
+          },
+          {
+            "name": "Oak Tree",
+            "page": 132
+          },
+          {
+            "name": "Olive Tree",
+            "page": 134
+          },
+          {
+            "name": "Pine Tree",
+            "page": 136
+          },
+          {
+            "name": "Palm Tree",
+            "page": 138
+          },
+          {
+            "name": "Roots",
+            "page": 140
+          },
+          {
+            "name": "Kabbalistic Tree",
+            "page": 142
+          },
+          {
+            "name": "Yakshi",
+            "page": 144
+          }
+        ]
+      },
+      {
+        "name": "Magical Plants and Flowers",
+        "symbols": [
+          {
+            "name": "Garden",
+            "page": 146
+          },
+          {
+            "name": "Flower",
+            "page": 150
+          },
+          {
+            "name": "Iris",
+            "page": 154
+          },
+          {
+            "name": "Lily",
+            "page": 156
+          },
+          {
+            "name": "Lotus",
+            "page": 158
+          },
+          {
+            "name": "Rose",
+            "page": 162
+          },
+          {
+            "name": "Thistle",
+            "page": 166
+          },
+          {
+            "name": "Apple",
+            "page": 14
+          },
+          {
+            "name": "Peach",
+            "page": 14
+          },
+          {
+            "name": "Grape",
+            "page": 14
+          },
+          {
+            "name": "Pomegranate",
+            "page": 14
+          },
+          {
+            "name": "Mushroom",
+            "page": 14
+          },
+          {
+            "name": "Mandrake",
+            "page": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Animal World",
+    "categories": [
+      {
+        "name": "Primordial Creatures",
+        "symbols": [
+          {
+            "name": "Snail",
+            "page": 14
+          },
+          {
+            "name": "Worm",
+            "page": 14
+          },
+          {
+            "name": "Toad",
+            "page": 14
+          },
+          {
+            "name": "Frog",
+            "page": 14
+          },
+          {
+            "name": "Turtle/Tortoise",
+            "page": 14
+          },
+          {
+            "name": "Snake",
+            "page": 14
+          },
+          {
+            "name": "Cobra",
+            "page": 14
+          },
+          {
+            "name": "Crocodile",
+            "page": 14
+          }
+        ]
+      },
+      {
+        "name": "Water Creatures",
+        "symbols": [
+          {
+            "name": "Fish",
+            "page": 202
+          },
+          {
+            "name": "Whale",
+            "page": 14
+          },
+          {
+            "name": "Dolphin",
+            "page": 14
+          },
+          {
+            "name": "Octopus",
+            "page": 14
+          },
+          {
+            "name": "Crab",
+            "page": 14
+          },
+          {
+            "name": "Shell",
+            "page": 14
+          },
+          {
+            "name": "Clam/Oyster",
+            "page": 14
+          }
+        ]
+      },
+      {
+        "name": "Arachnids and Insects",
+        "symbols": [
+          {
+            "name": "Scorpion",
+            "page": 218
+          },
+          {
+            "name": "Spider",
+            "page": 14
+          },
+          {
+            "name": "Cockroach",
+            "page": 14
+          },
+          {
+            "name": "Ant",
+            "page": 14
+          },
+          {
+            "name": "Honeybee",
+            "page": 14
+          },
+          {
+            "name": "Fly/Mosquito",
+            "page": 14
+          },
+          {
+            "name": "Butterfly/Moth",
+            "page": 14
+          },
+          {
+            "name": "Scarab",
+            "page": 14
+          }
+        ]
+      },
+      {
+        "name": "Birds",
+        "symbols": [
+          {
+            "name": "Bird",
+            "page": 14
+          },
+          {
+            "name": "Feather",
+            "page": 14
+          },
+          {
+            "name": "Dob",
+            "page": 14
+          },
+          {
+            "name": "Crow/Raven",
+            "page": 14
+          },
+          {
+            "name": "Falcon",
+            "page": 14
+          },
+          {
+            "name": "Eagle",
+            "page": 14
+          },
+          {
+            "name": "Peacock",
+            "page": 14
+          }
+        ]
+      },
+      {
+        "name": "Wild Animals",
+        "symbols": [
+          {
+            "name": "Ape/Monkey",
+            "page": 14
+          },
+          {
+            "name": "Elephant",
+            "page": 14
+          },
+          {
+            "name": "Great Cats",
+            "page": 14
+          },
+          {
+            "name": "Bear",
+            "page": 14
+          },
+          {
+            "name": "Wolf",
+            "page": 14
+          },
+          {
+            "name": "Coyote",
+            "page": 14
+          },
+          {
+            "name": "Fox",
+            "page": 14
+          },
+          {
+            "name": "Kangaroo",
+            "page": 14
+          },
+          {
+            "name": "Deer",
+            "page": 14
+          },
+          {
+            "name": "Rabbit/Hare",
+            "page": 14
+          },
+          {
+            "name": "Rat/Mouse",
+            "page": 14
+          },
+          {
+            "name": "Bat",
+            "page": 14
+          }
+        ]
+      },
+      {
+        "name": "Domestic Animals",
+        "symbols": [
+          {
+            "name": "Dog",
+            "page": 296
+          },
+          {
+            "name": "Cat",
+            "page": 300
+          },
+          {
+            "name": "Cow",
+            "page": 304
+          },
+          {
+            "name": "Bull",
+            "page": 308
+          },
+          {
+            "name": "Horse",
+            "page": 312
+          },
+          {
+            "name": "Donkey",
+            "page": 316
+          },
+          {
+            "name": "Goat",
+            "page": 318
+          },
+          {
+            "name": "Sheep",
+            "page": 322
+          },
+          {
+            "name": "Pig",
+            "page": 324
+          },
+          {
+            "name": "Hen/Rooster",
+            "page": 328
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Human World",
+    "categories": [
+      {
+        "name": "Human Body",
+        "symbols": [
+          {
+            "symbol": "asdf",
+            "page": 334
+          },
+          {
+            "symbol": "asdf",
+            "page": 334
+          }
+        ]
+      },
+      {
+        "name": "Movement and Expression",
+        "symbols": [
+          {
+            "symbol": "asdf",
+            "page": 334
+          },
+          {
+            "symbol": "asdf",
+            "page": 334
+          }
+        ]
+      },
+      {
+        "name": "Fundamentals of Work and Society",
+        "symbols": [
+          {
+            "symbol": "asdf",
+            "page": 334
+          },
+          {
+            "symbol": "asdf",
+            "page": 334
+          }
+        ]
+      },
+      {
+        "name": "Tools and Other Objects",
+        "symbols": [
+          {
+            "symbol": "Ax",
+            "page": 488
+          },
+          {
+            "symbol": "Knife/Dagger",
+            "page": 490
+          },
+          {
+            "symbol": "Sword",
+            "page": 492
+          },
+          {
+            "symbol": "Spear",
+            "page": 494
+          },
+          {
+            "symbol": "Bow and Arrow",
+            "page": 496
+          },
+          {
+            "symbol": "Gun",
+            "page": 498
+          },
+          {
+            "symbol": "Hammer",
+            "page": 500
+          },
+          {
+            "symbol": "Plow",
+            "page": 502
+          },
+          {
+            "symbol": "Wheel",
+            "page": 504
+          },
+          {
+            "symbol": "Calendar",
+            "page": 508
+          },
+          {
+            "symbol": "Compass",
+            "page": 510
+          },
+          {
+            "symbol": "Scale",
+            "page": 512
+          },
+          {
+            "symbol": "Chain",
+            "page": 514
+          },
+          {
+            "symbol": "Thread",
+            "page": 516
+          },
+          {
+            "symbol": "Net/Web",
+            "page": 518
+          },
+          {
+            "symbol": "Basket",
+            "page": 520
+          },
+          {
+            "symbol": "Purse",
+            "page": 522
+          },
+          {
+            "symbol": "Money",
+            "page": 524
+          },
+          {
+            "symbol": "Comb",
+            "page": 526
+          },
+          {
+            "symbol": "Scissors",
+            "page": 528
+          },
+          {
+            "symbol": "Veil",
+            "page": 530
+          },
+          {
+            "symbol": "Helmet",
+            "page": 532
+          },
+          {
+            "symbol": "Hat/Headdress",
+            "page": 534
+          },
+          {
+            "symbol": "Wreath",
+            "page": 538
+          },
+          {
+            "symbol": "Crown",
+            "page": 540
+          },
+          {
+            "symbol": "Necklace",
+            "page": 542
+          },
+          {
+            "symbol": "Earring",
+            "page": 544
+          },
+          {
+            "symbol": "Ring",
+            "page": 546
+          },
+          {
+            "symbol": "Apron",
+            "page": 548
+          },
+          {
+            "symbol": "Shoe",
+            "page": 550
+          },
+          {
+            "symbol": "Umbrella/Parasol",
+            "page": 552
+          },
+          {
+            "symbol": "Telephone",
+            "page": 554
+          }
+        ]
+      },
+      {
+        "name": "House and Home",
+        "symbols": [
+          {
+            "symbol": "asdf",
+            "page": 334
+          },
+          {
+            "symbol": "asdf",
+            "page": 334
+          }
+        ]
+      },
+      {
+        "name": "Buildings and Monuments",
+        "symbols": [
+          {
+            "symbol": "asdf",
+            "page": 334
+          },
+          {
+            "symbol": "asdf",
+            "page": 334
+          }
+        ]
+      },
+      {
+        "name": "Color",
+        "symbols": [
+          {
+            "symbol": "asdf",
+            "page": 334
+          },
+          {
+            "symbol": "asdf",
+            "page": 334
+          }
+        ]
+      },
+      {
+        "name": "Sound",
+        "symbols": [
+          {
+            "symbol": "Flute",
+            "page": 664
+          },
+          {
+            "symbol": "asdf",
+            "page": 334
+          },
+          {
+            "symbol": "asdf",
+            "page": 334
+          },
+          {
+            "symbol": "asdf",
+            "page": 334
+          },
+          {
+            "symbol": "asdf",
+            "page": 334
+          },
+          {
+            "symbol": "asdf",
+            "page": 334
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "group": "Sprit World",
+    "categories": [
+      {
+        "name": "Mythical Beings",
+        "symbols": [
+          {
+            "symbol": "Angel",
+            "page": 664
+          },
+          {
+            "symbol": "Ganesha",
+            "page": 334
+          },
+          {
+            "symbol": "Dakini",
+            "page": 334
+          },
+          {
+            "symbol": "Quetzalcoatl",
+            "page": 334
+          },
+          {
+            "symbol": "Siren",
+            "page": 334
+          },
+          {
+            "symbol": "Furies",
+            "page": 334
+          },
+          {
+            "symbol": "Mermaid",
+            "page": 334
+          },
+          {
+            "symbol": "Unicorn",
+            "page": 334
+          },
+          {
+            "symbol": "Cyclops/Giant",
+            "page": 334
+          },
+          {
+            "symbol": "Vampire",
+            "page": 334
+          },
+          {
+            "symbol": "Witch",
+            "page": 334
+          },
+          {
+            "symbol": "Dragon",
+            "page": 334
+          }
+        ]
+      },
+      {
+        "name": "Rituals and Sacred Systems",
+        "symbols": []
+      },
+      {
+        "name": "Sickness and Death",
+        "symbols": []
+      },
+      {
+        "name": "Soul and Psyche",
+        "symbols": [
+          {
+            "symbol": "Shape-Shifting",
+            "page": 770
+          },
+          {
+            "symbol": "Metamorphosis",
+            "page": 774
+          },
+          {
+            "symbol": "Transformation",
+            "page": 778
+          },
+          {
+            "symbol": "Chakras",
+            "page": 790
+          },
+          {
+            "symbol": "Crack",
+            "page": 782
+          },
+          {
+            "symbol": "Pearl",
+            "page": 784
+          },
+          {
+            "symbol": "Grail",
+            "page": 786
+          },
+          {
+            "symbol": "Ghost",
+            "page": 788
+          },
+          {
+            "symbol": "Ancestor",
+            "page": 790
+          }
+        ]
+      }
+    ]
+  }
 ]
