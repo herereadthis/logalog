@@ -207,8 +207,7 @@
           },
           {
             "name": "Island",
-            "page": 124,
-            "weight": 2
+            "pages": [124,125]
           }
         ]
       }
@@ -778,24 +777,24 @@
             "page": 664
           },
           {
-            "symbol": "asdf",
-            "page": 334
+            "symbol": "Trumpet/Horn",
+            "page": 668
           },
           {
-            "symbol": "asdf",
-            "page": 334
+            "symbol": "Harp/Lyre",
+            "page": 670
           },
           {
-            "symbol": "asdf",
-            "page": 334
+            "symbol": "Bell",
+            "page": 672
           },
           {
-            "symbol": "asdf",
-            "page": 334
+            "symbol": "Drum",
+            "page": 674
           },
           {
-            "symbol": "asdf",
-            "page": 334
+            "symbol": "Silence",
+            "pages": [676,677]
           }
         ]
       }
@@ -809,61 +808,171 @@
         "symbols": [
           {
             "symbol": "Angel",
-            "page": 664
+            "page": 680
           },
           {
             "symbol": "Ganesha",
-            "page": 334
+            "page": 684
           },
           {
             "symbol": "Dakini",
-            "page": 334
+            "page": 686
           },
           {
             "symbol": "Quetzalcoatl",
-            "page": 334
+            "page": 688
           },
           {
             "symbol": "Siren",
-            "page": 334
+            "page": 690
           },
           {
             "symbol": "Furies",
-            "page": 334
+            "page": 692
           },
           {
             "symbol": "Mermaid",
-            "page": 334
+            "page": 694
           },
           {
             "symbol": "Unicorn",
-            "page": 334
+            "page": 696
           },
           {
             "symbol": "Cyclops/Giant",
-            "page": 334
+            "page": 698
           },
           {
             "symbol": "Vampire",
-            "page": 334
+            "page": 700
           },
           {
             "symbol": "Witch",
-            "page": 334
+            "page": 702
           },
           {
             "symbol": "Dragon",
-            "page": 334
+            "page": 704
           }
         ]
       },
       {
         "name": "Rituals and Sacred Systems",
-        "symbols": []
+        "symbols": [
+          {
+            "symbol": "Dot/Bindu",
+            "page": 706
+          },
+          {
+            "symbol": "Zero",
+            "page": 708
+          },
+          {
+            "symbol": "One",
+            "page": 710
+          },
+          {
+            "symbol": "Mandala",
+            "page": 712
+          },
+          {
+            "symbol": "Labyrinth",
+            "page": 714
+          },
+          {
+            "symbol": "Crossroads",
+            "page": 716
+          },
+          {
+            "symbol": "Spiral",
+            "page": 718
+          },
+          {
+            "symbol": "Mask",
+            "page": 722
+          },
+          {
+            "symbol": "Incense",
+            "page": 726
+          },
+          {
+            "symbol": "Ashes",
+            "page": 728
+          },
+          {
+            "symbol": "Blessing",
+            "page": 730
+          }
+        ]
       },
       {
         "name": "Sickness and Death",
-        "symbols": []
+        "symbols": [
+          {
+            "symbol": "Disease",
+            "page": 732
+          },
+          {
+            "symbol": "Wound",
+            "page": 734
+          },
+          {
+            "symbol": "Vomit",
+            "page": 736
+          },
+          {
+            "symbol": "Medicine",
+            "page": 738
+          },
+          {
+            "symbol": "Poison",
+            "page": 740
+          },
+          {
+            "symbol": "Drowning",
+            "page": 742
+          },
+          {
+            "symbol": "Crucifixion",
+            "page": 744
+          },
+          {
+            "symbol": "Hanging",
+            "page": 746
+          },
+          {
+            "symbol": "Murder/Slaying",
+            "page": 750
+          },
+          {
+            "symbol": "Suicide",
+            "page": 752
+          },
+          {
+            "symbol": "Burial",
+            "page": 754
+          },
+          {
+            "symbol": "Coffin",
+            "page": 756
+          },
+          {
+            "symbol": "Cremation",
+            "page": 758
+          },
+          {
+            "symbol": "Mummy",
+            "page": 760
+          },
+          {
+            "symbol": "Decomposition",
+            "page": 764
+          },
+          {
+            "symbol": "Dismemberment",
+            "page": 766
+          }
+        ]
       },
       {
         "name": "Soul and Psyche",
@@ -902,7 +1011,7 @@
           },
           {
             "symbol": "Ancestor",
-            "page": 790
+            "pages": [790,791]
           }
         ]
       }
