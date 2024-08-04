@@ -1,0 +1,88 @@
+{
+    "title": "Minor Magical Tools",
+    "source": "Magical Industrial Revolution",
+    "dice": "D20",
+    "outcomes": [
+        {
+            "name": "Minor Magic Battery",
+            "description": "A glass and silver cylinder. Glows faintly octarine. Contains a tiny charge of raw magic; enough to activate a spell, trigger a wand, or deliver a painful zap."
+        },
+        {
+            "name": "Liquified Light",
+            "description": "Sold in mirrored flasks stoppered with lead. Crack open and pour out 1 hr of glowing yellow-white liquid. All the colours of sunset available."
+        },
+        {
+            "name": "Smartchain",
+            "description": "20' long, enchanted to move like a snake. Can follow simple commands. Active 1 hour in 24."
+        },
+        {
+            "name": "Dust Banger",
+            "description": "A plate-like bell on a long wood stick. Once per day, slam it into the ground then draw it up. All dust, powder, hair, etc. in a 60' radius will be drawn into a pile under the banger."
+        },
+        {
+            "name": "Coalspitter",
+            "description": "2' wide metal hoop. Any coal (and only coal) tossed through is gently flung 30'. Typically used to load coal cellars from a wagon in the street."
+        },
+        {
+            "name": "Perpetual Motion Machine",
+            "description": "A cart wheel on a wooden stand turned by magic. Not very powerful; impractical for industrial use."
+        },
+        {
+            "name": "Crush Helmet",
+            "description": "White metal bowl with a padded interior. Negates ½ the damage from a direct vertical impact by exploding noisily. One use."
+        },
+        {
+            "name": "Universal Scissors",
+            "description": "Can cut through anything 4\" thick or less (given time). Paper to leather, instant. Dense wood, a few minutes of pressure. Iron, at least an hour. Faint magic sizzle."
+        },
+        {
+            "name": "Fireman’s Gloves",
+            "description": "Thick black leather. Put them both on and faintly glowing red hands appear exactly 10' in front of you. They move as your hands move, same size and strength."
+        },
+        {
+            "name": "Wood Softener",
+            "description": "Bottle of brown oil. Makes wood as soft as clay for 1 hour. One bottle will cover a dining table, six chairs, a medium-sized tree, or a gallows."
+        },
+        {
+            "name": "Pocket Scales",
+            "description": "Folding, accurate to tenth of a pennyweight. Makes a shrill noise if counterfeit coins are placed on the scales."
+        },
+        {
+            "name": "Ultragrease",
+            "description": "Very small pot. Could coat a bowling ball or a coffee table. Lasts 1d20 hours. Object is temporarily nearly frictionless. Too expensive/unstable for widespread industrial use."
+        },
+        {
+            "name": "Holepoker",
+            "description": "Small metal rod with a wooden handle, available in various diameters up to 1\". Will bore a hole of the tool’s diameter in stone or wood in a few seconds. 100 uses."
+        },
+        {
+            "name": "Sealing Bubble",
+            "description": "Blue marble. Failed magic raincoat. Throw it hard and it coats a single room (up to 50'x50'x50') in a thin fragile rubber layer. Seals furniture to walls, covers windows."
+        },
+        {
+            "name": "Air Compressor",
+            "description": "Iron cart, spinning stone wheel, hose. Can provide 1hr of reasonably high-pressure air every 24 hours. 1-in-100 chance of exploding noisily."
+        },
+        {
+            "name": "Depigmenting Paint",
+            "description": "Bucket full of clear viscous liquid. Refractive. Enough to paint a house wall or a small carriage. Removes colour. Result is greyscale. Works on living things too."
+        },
+        {
+            "name": "Pigmentifying Paint",
+            "description": "Just like Depigmenting Paint (above) but increases colour instead. More vibrant, more lurid. Darker shadows, brighter highlights."
+        },
+        {
+            "name": "Salamander Jelly",
+            "description": "In a small glass pot. Enough to coat a boot. Protects from fire for 10 minutes, but causes a painful rash on bare skin. Also a very mild poison."
+        },
+        {
+            "name": "Warning Charm",
+            "description": "Small enchanted badge. Makes a shrill noise if wearer is targeted by a sufficiently powerful spell. May grant a bonus to dodge or resist the spell."
+        },
+        {
+            "name": "Hairpuller",
+            "description": "Originally used by tanners. Small metal rod. On hit, all hair on a cow-sized target or smaller flies off painlessly. 3 uses per day."
+        }
+    ]
+    
+}

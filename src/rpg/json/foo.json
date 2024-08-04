@@ -1,0 +1,10 @@
+[
+    {
+        "name": "foo",
+        "description": "This is a foo."
+    },
+    {
+        "name": "bar",
+        "description": "This is a bar."
+    }
+]

@@ -1,0 +1,90 @@
+<style>
+
+.fate_chart {
+    /* see layout.css */
+}
+.fate_chart .yes {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+}
+.fate_chart .extreme_yes {
+    text-align: left;
+    border-right: 0.1rem solid #584c4c;
+    font-size: 1.2rem;
+}
+.fate_chart .extreme_no {
+    text-align: right;
+    font-size: 1.2rem;
+}
+.fate_chart .starting td, .fate_chart td.starting {
+    background-color: #EEE;
+}
+.fate_chart .odds + .extreme_no {
+    border-left: 0.1rem solid #000;
+}
+.fate_chart .chaos {
+    font-weight: bold;
+    text-align: center;
+    border-right: 0.1rem solid #000;
+}
+.fate_chart .odds + .chaos {
+    border-left: 0.1rem solid #000;
+}
+</style>
+
+<section id="chapter_{{ chapters.oracles.id }}" epub:type="chapter" class="chapter">
+    <h1 class="chapter">Chapter {{ chapter_number }}: {{ chapters.oracles.title }}</h1>
+    <p>This chapter is when you are asking "What happens next?"</p>
+
+
+    <section id="subsection_04_01" epub:type="section">
+        <h2>Mythic GME Fate</h2>
+
+        <table class="fate_chart">
+            <tbody>
+                <tr>
+                    <td class="odds">Certain</td><td class="extreme_no">10</td><td class="yes">50</td><td class="extreme_yes">91</td><td class="extreme_no">13</td><td class="yes">65</td><td class="extreme_yes">94</td><td class="extreme_no">15</td><td class="yes">75</td><td class="extreme_yes">96</td><td class="extreme_no">17</td><td class="yes">85</td><td class="extreme_yes">98</td><td class="extreme_no">18</td><td class="yes">90</td><td class="extreme_yes">99</td><td class="extreme_no">19</td><td class="yes">95</td><td class="extreme_yes">100</td><td class="extreme_no">20</td><td class="yes">99</td><td class="extreme_yes">x</td><td class="extreme_no">20</td><td class="yes">99</td><td class="extreme_yes">x</td><td class="extreme_no">20</td><td class="yes">99</td><td class="extreme_yes">x</td>
+                  </tr>
+                  <tr>
+                    <td class="odds">Nearly Certain</td><td class="extreme_no">7</td><td class="yes">35</td><td class="extreme_yes">88</td><td class="extreme_no">10</td><td class="yes">50</td><td class="extreme_yes">91</td><td class="extreme_no">13</td><td class="yes">65</td><td class="extreme_yes">94</td><td class="extreme_no">15</td><td class="yes">75</td><td class="extreme_yes">96</td><td class="extreme_no">17</td><td class="yes">85</td><td class="extreme_yes">98</td><td class="extreme_no">18</td><td class="yes">90</td><td class="extreme_yes">99</td><td class="extreme_no">19</td><td class="yes">95</td><td class="extreme_yes">100</td><td class="extreme_no">20</td><td class="yes">99</td><td class="extreme_yes">x</td><td class="extreme_no">20</td><td class="yes">99</td><td class="extreme_yes">x</td>
+                  </tr>
+                  <tr>
+                    <td class="odds">Very Likely</td><td class="extreme_no">5</td><td class="yes">25</td><td class="extreme_yes">86</td><td class="extreme_no">7</td><td class="yes">35</td><td class="extreme_yes">88</td><td class="extreme_no">10</td><td class="yes">50</td><td class="extreme_yes">91</td><td class="extreme_no">13</td><td class="yes">65</td><td class="extreme_yes">94</td><td class="extreme_no">15</td><td class="yes">75</td><td class="extreme_yes">96</td><td class="extreme_no">17</td><td class="yes">85</td><td class="extreme_yes">98</td><td class="extreme_no">18</td><td class="yes">90</td><td class="extreme_yes">99</td><td class="extreme_no">19</td><td class="yes">95</td><td class="extreme_yes">100</td><td class="extreme_no">20</td><td class="yes">99</td><td class="extreme_yes">x</td>
+                  </tr>
+                  <tr>
+                    <td class="odds">Likely</td><td class="extreme_no">3</td><td class="yes">15</td><td class="extreme_yes">84</td><td class="extreme_no">5</td><td class="yes">25</td><td class="extreme_yes">86</td><td class="extreme_no">7</td><td class="yes">35</td><td class="extreme_yes">88</td><td class="extreme_no">10</td><td class="yes">50</td><td class="extreme_yes">91</td><td class="extreme_no">13</td><td class="yes">65</td><td class="extreme_yes">94</td><td class="extreme_no">15</td><td class="yes">75</td><td class="extreme_yes">96</td><td class="extreme_no">17</td><td class="yes">85</td><td class="extreme_yes">98</td><td class="extreme_no">18</td><td class="yes">90</td><td class="extreme_yes">99</td><td class="extreme_no">19</td><td class="yes">95</td><td class="extreme_yes">100</td>
+                  </tr>
+                  <tr class="starting">
+                    <td class="odds">50/50</td><td class="extreme_no">2</td><td class="yes">10</td><td class="extreme_yes">83</td><td class="extreme_no">3</td><td class="yes">15</td><td class="extreme_yes">84</td><td class="extreme_no">5</td><td class="yes">25</td><td class="extreme_yes">86</td><td class="extreme_no">7</td><td class="yes">35</td><td class="extreme_yes">88</td><td class="extreme_no">10</td><td class="yes">50</td><td class="extreme_yes">91</td><td class="extreme_no">13</td><td class="yes">65</td><td class="extreme_yes">94</td><td class="extreme_no">15</td><td class="yes">75</td><td class="extreme_yes">96</td><td class="extreme_no">17</td><td class="yes">85</td><td class="extreme_yes">98</td><td class="extreme_no">18</td><td class="yes">90</td><td class="extreme_yes">99</td>
+                  </tr>
+                  <tr>
+                    <td class="odds">Unlikely</td><td class="extreme_no">1</td><td class="yes">5</td><td class="extreme_yes">82</td><td class="extreme_no">2</td><td class="yes">10</td><td class="extreme_yes">83</td><td class="extreme_no">3</td><td class="yes">15</td><td class="extreme_yes">84</td><td class="extreme_no">5</td><td class="yes">25</td><td class="extreme_yes">86</td><td class="extreme_no">7</td><td class="yes">35</td><td class="extreme_yes">88</td><td class="extreme_no">10</td><td class="yes">50</td><td class="extreme_yes">91</td><td class="extreme_no">13</td><td class="yes">65</td><td class="extreme_yes">94</td><td class="extreme_no">15</td><td class="yes">75</td><td class="extreme_yes">96</td><td class="extreme_no">17</td><td class="yes">85</td><td class="extreme_yes">98</td>
+                  </tr>
+                  <tr>
+                    <td class="odds">Very Unlikely</td><td class="extreme_no">x</td><td class="yes">1</td><td class="extreme_yes">81</td><td class="extreme_no">1</td><td class="yes">5</td><td class="extreme_yes">82</td><td class="extreme_no">2</td><td class="yes">10</td><td class="extreme_yes">83</td><td class="extreme_no">3</td><td class="yes">15</td><td class="extreme_yes">84</td><td class="extreme_no">5</td><td class="yes">25</td><td class="extreme_yes">86</td><td class="extreme_no">7</td><td class="yes">35</td><td class="extreme_yes">88</td><td class="extreme_no">10</td><td class="yes">50</td><td class="extreme_yes">91</td><td class="extreme_no">13</td><td class="yes">65</td><td class="extreme_yes">94</td><td class="extreme_no">15</td><td class="yes">75</td><td class="extreme_yes">96</td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="odds">Nearly Impossible</td><td class="extreme_no">x</td><td class="yes">x</td><td class="extreme_yes">80</td><td class="extreme_no">x</td><td class="yes">1</td><td class="extreme_yes">81</td><td class="extreme_no">1</td><td class="yes">5</td><td class="extreme_yes">82</td><td class="extreme_no">2</td><td class="yes">10</td><td class="extreme_yes">83</td><td class="extreme_no">3</td><td class="yes">15</td><td class="extreme_yes">84</td><td class="extreme_no">5</td><td class="yes">25</td><td class="extreme_yes">86</td><td class="extreme_no">7</td><td class="yes">35</td><td class="extreme_yes">88</td><td class="extreme_no">10</td><td class="yes">50</td><td class="extreme_yes">91</td><td class="extreme_no">13</td><td class="yes">65</td><td class="extreme_yes">94</td>
+                  </tr>
+                  
+                  <tr>
+                    <td class="odds">Impossible</td><td class="extreme_no">x</td><td class="yes">x</td><td class="extreme_yes">x</td><td class="extreme_no">x</td><td class="yes">x</td><td class="extreme_yes">80</td><td class="extreme_no">x</td><td class="yes">1</td><td class="extreme_yes">81</td><td class="extreme_no">1</td><td class="yes">5</td><td class="extreme_yes">82</td><td class="extreme_no">2</td><td class="yes">10</td><td class="extreme_yes">83</td><td class="extreme_no">3</td><td class="yes">15</td><td class="extreme_yes">84</td><td class="extreme_no">5</td><td class="yes">25</td><td class="extreme_yes">86</td><td class="extreme_no">7</td><td class="yes">35</td><td class="extreme_yes">88</td><td class="extreme_no">10</td><td class="yes">50</td><td class="extreme_yes">91</td>
+                  </tr>
+                  <tr>
+                    <td class="odds">Chaos Factor</td>
+                    <td colspan="3" class="chaos">1</td>
+                    <td colspan="3" class="chaos">2</td>
+                    <td colspan="3" class="chaos">3</td>
+                    <td colspan="3" class="chaos">4</td>
+                    <td colspan="3" class="chaos">5</td>
+                    <td colspan="3" class="chaos">6</td>
+                    <td colspan="3" class="chaos">7</td>
+                    <td colspan="3" class="chaos">8</td>
+                    <td colspan="3" class="chaos">9</td>
+                  </tr>
+            </tbody>
+        </table>
+    </section>
+</section>

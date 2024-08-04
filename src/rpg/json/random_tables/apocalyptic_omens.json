@@ -1,0 +1,67 @@
+{
+    "title": "Apocalyptic Omens",
+    "source": "Magical Industrial Revolution",
+    "dice": "D20",
+    "outcomes": [
+        {
+            "description": "The River Burl runs backwards for a day, in defiance of winds and tides."
+        },
+        {
+            "description": "All the coffee in Endon turns to water. All coffee beans turn to small ice cubes."
+        },
+        {
+            "description": "For a week, sparrows catch fire and fly into windows."
+        },
+        {
+            "description": "It rains upwards for a few hours. Puddles roil and sizzle as small droplets leap skyward."
+        },
+        {
+            "description": "A large statue of a gryphon stamps its claw three times every day at noon."
+        },
+        {
+            "description": "A raven the size of a cottage lands on the Parliament of Endon (3, pg. 9). It flies away if threatened but returns every night."
+        },
+        {
+            "description": "Spiders spell out mathematical equations in their webs. None of the equations make any sense. Mathematicians and entomologists are amused but slightly worried."
+        },
+        {
+            "description": "Musical instruments in Endon fling themselves out of tune. Musicians slowly adjust them, but some will never be the same again. All concerts temporarily cancelled."
+        },
+        {
+            "description": "All mirrors show slightly incorrect things approximately 50% of the time. Reflections sport new scars and hair colours. Some are delayed, some are sped up."
+        },
+        {
+            "description": "Children report the same dreams. Every night, all they can hear and imagine is the sea."
+        },
+        {
+            "description": "For a full day, everyone is unable to recall their own name or the names of anyone else."
+        },
+        {
+            "description": "All horses flee towards the River Burl, leaping off bridges and drowning themselves, dragging carriages and carts with them. Horses that are restrained batter themselves to exhaustion."
+        },
+        {
+            "description": "A comet with three tails is seen over the city for several nights. It is only visible within the city limits but the astrologers assure everyone this is perfectly normal."
+        },
+        {
+            "description": "Clouds passing over Endon form unnatural geometric shapes: smooth-sided pyramids, long cylinders, tumbling octahedrons."
+        },
+        {
+            "description": "An entire neighborhood vanishes. All the maps are also altered, but everyone remembers it. Just south of Haymarket Square (6, pg. 9)... right? And what happened to the people?"
+        },
+        {
+            "description": "All rubies in Endon become cloudy, like dried blood."
+        },
+        {
+            "description": "For a full day, books and ledgers in Endon fly open, as if an invisible ghostly giant was racing through the city and ransacking libraries."
+        },
+        {
+            "description": "For a week, gravity alters half a degree to the northeast. Things slowly slide off tables, people trip over stairs and endlessly fuss over hanging pictures."
+        },
+        {
+            "description": "Coins featuring the Monarch’s face refuse to land face-side up if tossed. They can be flipped over with a slight effort."
+        },
+        {
+            "description": "Interest in one of the Eight Deadly Sins (1d8, pg. 60) spikes to ludicrous levels for a full day."
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "title": "Magical Diseases",
+    "source": "Magical Industrial Revolution",
+    "dice": "D20",
+    "outcomes": [
+        {
+            "name": "Electrogonorrhea",
+            "tags": ["Thunderclap", "The Noisy Killer"],
+            "description": "Any rustling in the trouser regions causes a painful electric jolt and a loud bang."
+        },
+        {
+            "name": "Parasitic Shadows",
+            "tags": ["The Greebling", "Fairy Blotches"],
+            "description": "Small lumps of shadow. Normally hide in the infected person’s regular shadow but can be identified with bright multidirectional light. Slowly drains all colour from the victim."
+        },
+        {
+            "name": "The Vapours",
+            "tags": ["Permastink", "Old Ronald’s Cap"],
+            "description": "Spell infects the skin, converting dead hair into noxious ammonia and sulphides. Smell is unbearable, cuts through perfume in minutes. Noticeable at 30'; intolerable within 10'."
+        },
+        {
+            "name": "Personal Magnetism",
+            "tags": ["Polarization of the Bones", "Coilguts"],
+            "description": "Victim becomes slightly magnetic. Iron filings stick. Delicate work with metal is impossible."
+        },
+        {
+            "name": "Houndtongue",
+            "tags": ["The Slobbers", "Beefsteak Face"],
+            "description": "Tongue grows 4” longer, slightly wider. No extra dexterity. Speech possible; drooling inevitable."
+        },
+        {
+            "name": "Migratory Eyebrows",
+            "tags": ["Caterpillar Face", "The Sneaks"],
+            "description": "Eyebrows slide about like slugs. Can be lured back into place temporarily with milk."
+        },
+        {
+            "name": "Earworms",
+            "tags": ["Mortal Melodies", "Lady Chetham’s Driver"],
+            "description": "Songs tangled up in spells. They play in the victim’s ear, exactly as the victim first heard them, over and over. Conversation is possible but irritating. Listening to other music is impossible."
+        },
+        {
+            "name": "Theatrics",
+            "tags": ["The Actor’s Plague", "The Haymarket Drawl"],
+            "description": "Somehow infects the mind. Everything becomes dramatic. All speech hammed up, all gestures florid, all scenery chewed. Impossible to get any serious work or serious acting done."
+        },
+        {
+            "name": "The Lurch",
+            "tags": ["Flying Frenzy", "The Suicide Slide"],
+            "description": "Any time the victim runs, there’s a 10% chance per round they are flung 20' in random horizontal direction. Victim’s feet develop silver warts and scales."
+        },
+        {
+            "name": "Stonehairs",
+            "tags": ["Golem Wig", "The Spikes"],
+            "description": "Hair slowly becomes solid and dense. Cut it with a chisel. Impossible to swim."
+        },
+        {
+            "name": "Tongue Twisters",
+            "tags": ["The Mumbles", "Wordgrip"],
+            "description": "Speechers of this enchanterly afflictment enbafflify and confuserate all vords, noons, and haberdashejtives in their spoinks. Moaning can be conveigled, but with dafferlecty."
+        },
+        {
+            "name": "Decapitation",
+            "tags": ["Revolutionary’s Delight", "Hangman’s Horror"],
+            "description": "Head floats 2” above neck stump. Blood, air, and food still flow normally, but there’s a distinct gap."
+        },
+        {
+            "name": "Spidertears",
+            "tags": ["Witch’s Curse", "Arachnolacrimation"],
+            "description": "Victim cries tiny harmless black spiders. They tickle."
+        },
+        {
+            "name": "Frogmarks",
+            "tags": ["Amphibian Spots", "Princely Pox"],
+            "description": "Tiny green bumps appear on the skin, slowly growing to the size of large coins. In a week or so they burst, each one releasing a small, green, and extremely noisy frog."
+        },
+        {
+            "name": "Illusionary Curse",
+            "tags": ["False Limbery", "Madhouse Feet"],
+            "description": "Starts on one limb. Limb becomes illusionary. Any solid impact pops it like a soap bubble. Limb reappears in 24 hours. Slowly spreads from one limb to the torso, and then the entire body."
+        },
+        {
+            "name": "Pigeonfriend",
+            "tags": ["Feathered Jags", "The Old Statuary"],
+            "description": "Victim becomes irresistible to pigeons. They want to perch, coo, and do their business."
+        },
+        {
+            "name": "Suds",
+            "tags": ["Soapstains", "The Froth"],
+            "description": "Friction of skin-on-skin creates clouds of white antiseptic soap bubbles. They sing."
+        },
+        {
+            "name": "Noselight",
+            "tags": ["Drinker’s Delight", "Facebulb"],
+            "description": "Nose becomes large, red, and bulbous. Sheds as much light as a match. After three days, pops off and floats away. A new bulbous nose grows in its place to repeat the process."
+        },
+        {
+            "name": "Rotating Fingers",
+            "tags": ["Windmill Hands", "Fidgeter’s Curse"],
+            "description": "Placement of fingers on hands slowly rotates. Holding things is possible but not for more than an hour."
+        },
+        {
+            "name": "Invisible Genitals",
+            "tags": ["Cock-be-Gone", "False Promises"],
+            "description": "External genitalia vanishes. They’re still there and fully functional, just invisible."
+        }
+    ]
+}

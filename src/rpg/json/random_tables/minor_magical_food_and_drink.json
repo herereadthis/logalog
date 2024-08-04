@@ -1,0 +1,87 @@
+{
+    "title": "Minor Magical Food and Drink",
+    "source": "Magical Industrial Revolution",
+    "dice": "D20",
+    "outcomes": [
+        {
+            "name": "Cheesefinder",
+            "description": "Small enchanted compass. Always points towards the nearest cheese."
+        },
+        {
+            "name": "Maggot Flute",
+            "description": "Bone white. Sounds moist. When played, will draw flies and maggots in a 10' radius towards it in a swarm or cloud."
+        },
+        {
+            "name": "Splaterguard",
+            "description": "1' wide mesh disc. Any liquids that touch the disc are deflected at a 90 degree angle at impressive speed."
+        },
+        {
+            "name": "Ratzapper",
+            "description": "Small metal bident. Instantly peels and cooks any rat it strikes. One use per day."
+        },
+        {
+            "name": "Virile Pudding",
+            "description": "Grey, meaty, and supernaturally delicious. Medicinal properties listed on the tin. May reroll next dice roll and take the highest result. Causes severe indigestion, cramps."
+        },
+        {
+            "name": "Fairie Gras",
+            "description": "Tiny (hopefully non-sentient) flower-fairies fattened on honey and bacon grease, mashed. Delicate flavour. Knockoff versions made from hedgehog brains exist."
+        },
+        {
+            "name": "Recovering Orange",
+            "description": "A joke. Cannot be peeled. Can be cut or mashed (releasing no juice), but the peel always regenerates. Rots in 5 days."
+        },
+        {
+            "name": "Wake-Me-Up",
+            "description": "Glass vial containing red fog. Inhale to instantly banish fatigue for 1d6 hours. Pleasant mania for a few minutes. Not addictive. Usually taken in the morning."
+        },
+        {
+            "name": "Foreign Rolled Meat Wrap with Sauce",
+            "description": "Sold in small greasy stalls at night. Made from some sort of highly magical and probably illegal animal. If eater is drunk, they heal 2d6 HP... messily."
+        },
+        {
+            "name": "Sensible Bowl",
+            "description": "Liquids placed in this soup bowl cannot be spilled. They can only be removed with a silver spoon, tube, ladle, etc."
+        },
+        {
+            "name": "Walking Teapot",
+            "description": "Toddles along, pours tea with appalling accuracy. Some are shaped like elephants or local politicians."
+        },
+        {
+            "name": "Juice Extractor",
+            "description": "Very efficient. Paint-can-sized metal contraption. Sucks the liquid out of anything in 20 minutes, dispenses it via a pipe. Makes ominous grinding sounds."
+        },
+        {
+            "name": "Insulated Tureen",
+            "description": "Thin sheen of insulating magic. Keeps contents (up to a full turkey) at the same temperature they were at when the tureen was closed."
+        },
+        {
+            "name": "Harshmallow",
+            "description": "Packet of 10 sugary treats. Tastes great, lets eater breath out blue-coloured harmless flames for 1 minute."
+        },
+        {
+            "name": "Unicorn Milk",
+            "description": "Just regular cow milk with glitter, vanilla, and raw magic added. Still quite tasty. Unicorn cheese also available. Heals 2 HP, lightly bleaches hair."
+        },
+        {
+            "name": "Self-Cleaning Pot",
+            "description": "Just add soap and water, tap the brass plate on the front, and it scrubs itself clean. Just don’t tap the plate while food is inside (or your hand). It scrubs vigorously."
+        },
+        {
+            "name": "Hungerstone",
+            "description": "Pebble enchanted to taste of beef stew. Banishes hunger temporarily but provides no nutrition."
+        },
+        {
+            "name": "Autopeeler",
+            "description": "Metal ring 6\" in diameter with handles. Drop carrots, potatoes, garlic, onions, oranges, etc. through. Peels them neatly. Advanced versions won’t work on meat."
+        },
+        {
+            "name": "Pine-apples",
+            "description": "A tropical fruit grown in magically protected hothouses. Formerly an upper-class fashion accessory, now merely a middle-class status symbol. Delicious if a bit spiky. Juice smooths fingerprints."
+        },
+        {
+            "name": "Omnispice",
+            "description": "Shaker full of grey powder. 10 uses. Tastes like whatever spice or flavour the user declares when the powder is shaken out, but with a faint metallic aftertaste."
+        }
+    ]
+}

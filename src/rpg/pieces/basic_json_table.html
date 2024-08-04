@@ -1,0 +1,51 @@
+{% macro render_table(data) %}
+
+<style>
+.basic_json_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.basic_json_table tr:first-child td {
+    border-top: 0.1rem solid #000;
+    padding-top: 0.7rem;
+}
+
+.basic_json_table td {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom: 0.1rem solid #000;
+    border-left-width: 0;
+    vertical-align: top;
+    padding-top: 0.8rem;
+    padding-bottom: 0.7rem;
+    min-height: 3.2rem;
+}
+
+.basic_json_table_name {
+    font-weight: bold;
+    padding-right: 2.4rem;
+}
+
+.basic_json_table_index {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    padding-right: 2.4rem;
+    text-align: right;
+}
+
+</style>
+
+
+<table class="basic_json_table" cellpadding="0" cellspacing="0">
+    <tbody>
+        {% for outcome in data %}
+        <tr>
+            <td class="basic_json_table_index">{{ loop.index }}</td>
+            <td class="basic_json_table_name">{{ outcome.name }}</td>
+            <td class="basic_json_table_description">{{ outcome.description }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endmacro %}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include './pieces/metadata.html' %}
+</head>
+<body>
+<div class="container">
+    {% include './pieces/title_page.html' %}
+    {% set chapter_number = 0 %}
+    {% include './pieces/table_of_contents.html' %}
+    {% set chapter_number = 1 %}
+    {% include './chapters/getting_started.html' %}
+    {% set chapter_number = 2 %}
+    {% include './chapters/advanced_topics.html' %}
+    {% set chapter_number = 3 %}
+    {% include './chapters/trinket_generators.html' %}
+    {% set chapter_number = 4 %}
+    {% include './chapters/tarot_generators.html' %}
+    {% set chapter_number = 5 %}
+    {% include './chapters/oracles.html' %}
+</div>
+</body>
+</html>

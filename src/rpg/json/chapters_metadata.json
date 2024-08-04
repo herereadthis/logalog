@@ -1,0 +1,40 @@
+{
+    "table_of_contents": {
+        "title": "Table of contents",
+        "id": 0
+    },
+    "getting_started": {
+        "title": "Getting Started",
+        "id": 1
+    },
+    "advanced_topics": {
+        "title": "Advanced Topics",
+        "id": 2
+    },
+    "trinket_generators": {
+        "title": "Random Generators for Trinkets",
+        "id": 3,
+        "sub_chapters": {
+            "oddities": {
+                "title": "Oddities",
+                "id": "oddities"
+            },
+            "minor_magical_entertainment": {
+                "title": "Minor Magical Items: Entertainment",
+                "id": "minor_magical_entertainment"
+            },
+            "minor_magical_dubiously_legal": {
+                "title": "Minor Magical Items: Dubiously Legal",
+                "id": "minor_magical_dubiously_legal"
+            }
+        }
+    },
+    "tarot_generators": {
+        "title": "Tarot Generators",
+        "id": 4
+    },
+    "oracles": {
+        "title": "Oracles",
+        "id": 5
+    }
+}

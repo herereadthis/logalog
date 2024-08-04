@@ -1,0 +1,87 @@
+{
+    "title": "Minor Magical Items: Entertainment",
+    "source": "Magical Industrial Revolution",
+    "dice": "D20",
+    "outcomes": [
+        {
+            "name": "Animal Horn",
+            "description": "Brass with a rubber bulb. Can tinnily make the sound of any animal the wearer cares to name, possibly accurately enough to fool a very credulous animal."
+        },
+        {
+            "name": "Enchanted Clock",
+            "description": "Keeps decent time. Clockface enchanted with moving pastoral, comical, historical, or moral scenes. Amoral evening scenes discreetly available."
+        },
+        {
+            "name": "Pigeonpowder",
+            "description": "Spread outdoors summon, essentially, 50' cube of pigeons in 1d6 rounds. One use. Cloud disperses after 10 minutes."
+        },
+        {
+            "name": "Iconograph",
+            "description": "Requires a special device (worth 200gp, requires special training). Black-and-white image marked onto paper. Can turn out blurry, distorted, or smeared. No refunds."
+        },
+        {
+            "name": "Moving Picture",
+            "description": "Taken with a special device (worth 400gp, requires special training). A few seconds of movement in extremely blurry sepia. Smile and wave."
+        },
+        {
+            "name": "Sheepgoggles",
+            "description": "While worn, every living thing looks like a sheep. Very difficult to tell people apart. Horses are big sheep, people are sheep on two legs, butterflies are flying sheep, etc."
+        },
+        {
+            "name": "Wooden Fish",
+            "description": "Painted wooden segments. Wiggles realistically, swims in water. Fancy versions even bite hooks and nibble at food."
+        },
+        {
+            "name": "Sparkwhistle",
+            "description": "Small, metal, shrill. Sprays harmless coloured sparks when blown. Enormous trumpetsized versions available. Tuba-sized whistles can blow a person’s hat off at 50 paces."
+        },
+        {
+            "name": "Flutterpipe",
+            "description": "Hardwood pipe enchanted to turn smoke into birds, snakes, initials, faces, etc."
+        },
+        {
+            "name": "Lively Puppet",
+            "description": "Fits over one hand. Has rolling eyes, dribbly lips, comical nose, etc. Can act semi-independently and make unintelligible noises."
+        },
+        {
+            "name": "Enchanted Songbirds",
+            "description": "Polished tin or brass in a wire cage. Twitters, hops, sings. Cheaper than the real thing. Some people swear they can detect magical disasters before they happen."
+        },
+        {
+            "name": "Speaking Mirror",
+            "description": "Pays vacuous mindless compliments to reflected faces. Every Season a new version comes out with more lines and responses."
+        },
+        {
+            "name": "Malicious Gossip Cakes",
+            "description": "Contain a tiny paper scroll. 50% chance of a Rumour, 25% chance of nothing, 25% chance of gibberish."
+        },
+        {
+            "name": "Permakitten",
+            "description": "Cat that’s perpetually tiny and irascible. Still a cat so it’s also disobedient and independent. Comes in a variety of unnatural colours."
+        },
+        {
+            "name": "Prancing Statue",
+            "description": "Thumb-sized. Carved from stone or ivory. Ballet dancers prance, soldiers march, actors gesticulate, horses rear, etc."
+        },
+        {
+            "name": "Enchanted Bell",
+            "description": "No matter how it’s rung, the bell automatically plays the next note of a popular tune. Can wildly swing it about and make it seem like you’re making music."
+        },
+        {
+            "name": "Novelty Scab",
+            "description": "Grown in a jar. Falls off in a week or when vinegar is applied. Extraordinarily realistic."
+        },
+        {
+            "name": "Penguin Tie",
+            "description": "Amusing party trick (rapidly grows tiresome). Press a black tie to be disguised, via illusion, as a large somber-looking Emperor Penguin for 1d10 minutes. One use."
+        },
+        {
+            "name": "Portable Orchestra",
+            "description": "Simple wood keyboard with multiple add-in slots. Can play one instrument per slot. Tinny, distorted. Generally considered a nuisance."
+        },
+        {
+            "name": "Prismatic Roses",
+            "description": "Roses in every shade of the rainbow and a few more found only on tropical frogs. Plaid, paisley, and checkerboard roses may also be available. Wilt in 4 days."
+        }
+    ]
+}

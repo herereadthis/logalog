@@ -1,0 +1,87 @@
+{
+    "title": "Minor Magical Personal Items",
+    "source": "Magical Industrial Revolution",
+    "dice": "D20",
+    "outcomes": [
+        {
+            "name": "Thumbspark Jelly",
+            "description": "Thimble-sized flask. Glows orange. Rub it on your thumb and finger, then snap. Little burst of flame, like a match. Works ten times on any reasonably high-friction joint."
+        },
+        {
+            "name": "Findernails",
+            "description": "Black pot of nail polish. Ten uses. Can look through nail like a screen to dimly see ghosts and invisible things for 1hr. Only works on fingernails for some reason."
+        },
+        {
+            "name": "Ingenious Snuff Box",
+            "description": "In the shape of a swan with moving wings, a tiger with glowing eyes, a cube with five sides, etc. Fashionable but cheaply made (just silver plated)."
+        },
+        {
+            "name": "Sleeping Pillow",
+            "description": "Sew a lock of hair into a special compartment. When the hair’s owner’s head touches the pillow, if they are at all tired, they fall asleep for 8 restful hours."
+        },
+        {
+            "name": "Crabshoes",
+            "description": "Allow the wearer to run in any direction as fast as they could run forward."
+        },
+        {
+            "name": "Doctor Spack’s Potency Powder",
+            "description": "Fine grey dust in a glass vial. Sprinkle on a body part (traditionally a private one) to make it appear more appealing for 1d6 hours. Purely visual."
+        },
+        {
+            "name": "Wig-in-a-Can",
+            "description": "1\" wide 2\" long can produces a full-sized powdered wig. Takes 2hrs to stuff the wig back inside. Lawyers keep one for emergencies."
+        },
+        {
+            "name": "Deflective Bumbershoot",
+            "description": "Magic umbrella. Pole with a disc of force at the top. Stops rain. Some versions can turn it into steam or snow, or direct it at passers-by."
+        },
+        {
+            "name": "Commemorative Medallion",
+            "description": "Brass, highly polished, cheap ribbon. When pressed, speaks the name of the event in an authoritative tone. Available for all occasions."
+        },
+        {
+            "name": "Chromic Silk",
+            "description": "Used for cravats, hatbands, ribbons, and tights. Changes colour randomly, like an oil slick. Fascinating for about a minute, then very tacky."
+        },
+        {
+            "name": "Autoscribe",
+            "description": "Glass and silver pen with an ink reservoir. When activated, will transcribe speech in any language for 1d6 hours. Spelling and punctuation are wildly inventive to say the least."
+        },
+        {
+            "name": "Indestructible Hat",
+            "description": "Bowlers common; flat caps available. Hat can be folded, punctured, or shredded and still regenerate in minutes. Cannot survive fire, acid, or magic."
+        },
+        {
+            "name": "Pocket Ice",
+            "description": "Pocketwatch-sized metal canister. Can be opened to produce one ice cube. Refills in one hour in damp conditions. May require additional water."
+        },
+        {
+            "name": "Bullet Charm",
+            "description": "Activates at a loud sound, so only useful for subsonic muskets and pistols. Has a 1-in-6 chance of deflecting a shot (sold as 'guaranteed'). One use, can only wear one."
+        },
+        {
+            "name": "Longpocket",
+            "description": "Up to 1\" long by 1\" wide by 20\" deep (can be tailored). Useful for canes, other long thin items. Anything in the pocket still has weight. Liquid can soak through the fabric."
+        },
+        {
+            "name": "Stiffening Wand",
+            "description": "Marble stick 4\" long. Pass over a section of fabric to make it a hard as glass for 1 hr. Used to make impossible dresses reveal just the right amount."
+        },
+        {
+            "name": "Sweetheart’s Bell",
+            "description": "Small brass bell. Only the ringer and people who have previously touched the bell at the same time as the ringer while making eye contact can hear it. 50' range."
+        },
+        {
+            "name": "Folding Bicycle",
+            "description": "Fits into a 2\" by 4\" tin. Enchanted paper, so it falls apart after a 1d6 days, or 1d6 minutes if driven in rain or fog."
+        },
+        {
+            "name": "Personal Lock",
+            "description": "Iron padlock with no keyhole. Only opens for the person who first fed it a drop of blood. A crowbar will also work."
+        },
+        {
+            "name": "Recorker",
+            "description": "Wooden wand that inserts a cork into open wine bottles or any other similarly sized hole. 30 uses. Corking a person’s nostril or ear inflicts 1 damage."
+        }
+    ]
+}

@@ -17,25 +17,46 @@
         <h2>Subtitle or Tagline</h2>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#chapter1">Chapter 1</a></li>
-            <li><a href="#chapter2">Chapter 2</a></li>
-            <!-- Add more chapters as needed -->
-        </ul>
-    </nav>
+    <body>
 
-    <article id="chapter1">
-        <h2>Chapter 1: Introduction</h2>
-        <p>This is the first chapter of the book.</p>
-        <img src="images/cover.jpg" alt="Cover Image">
-    </article>
+<!-- Title Page -->
+<section epub:type="titlepage">
+    <h1>Your Book Title</h1>
+    <p>Author Name</p>
+    <p>Publisher Name</p>
+</section>
 
-    <article id="chapter2">
-        <h2>Chapter 2: Another Chapter</h2>
-        <p>This is another chapter of the book.</p>
-    </article>
+<!-- Table of Contents -->
+<nav epub:type="toc" id="toc">
+    <h1>Table of Contents</h1>
+    <ol>
+        <li><a href="#chapter1">Chapter 1: Introduction</a></li>
+        <li><a href="#chapter2">Chapter 2: Getting Started</a></li>
+        <li><a href="#chapter3">Chapter 3: Advanced Topics</a></li>
+    </ol>
+</nav>
 
-    <!-- Add more chapters as needed -->
+<!-- Chapter 1 -->
+<section id="chapter1" epub:type="chapter">
+    <h1>Chapter 1: Introduction</h1>
+    <p>Your content for Chapter 1 goes here...</p>
+</section>
+
+<!-- Chapter 2 -->
+<section id="chapter2" epub:type="chapter">
+    <h1>Chapter 2: Getting Started</h1>
+    <p>Your content for Chapter 2 goes here...</p>
+</section>
+
+<!-- Chapter 3 -->
+<section id="chapter3" epub:type="chapter">
+    <h1>Chapter 3: Advanced Topics</h1>
+    <p>Your content for Chapter 3 goes here...</p>
+</section>
+
+<!-- Footer (if needed) -->
+<footer epub:type="footnote">
+    <p>Footer information or notes can go here...</p>
+</footer>
 </body>
 </html>

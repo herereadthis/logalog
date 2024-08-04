@@ -1,0 +1,88 @@
+{
+    "title": "Minor Magical Items: Dubiously Legal",
+    "source": "Magical Industrial Revolution",
+    "dice": "D20",
+    "outcomes": [
+        {
+            "name": "Brick Key",
+            "description": "Small iron key with a complex design. Insert to turn any brick into a small hidden compartment. Bricks can still be smashed open."
+        },
+        {
+            "name": "Peering Paint",
+            "description": "Small pot, coats a 10'x10' patch. Can see through up to 10' of solid material as if it was glass. One way. Lasts 2d6 hours."
+        },
+        {
+            "name": "Dark Lantern",
+            "description": "30' radius of darkness. Not total blackness, but a sort of gentle fading. At night, makes it very easy to creep around. Works 3 hrs out of 24 hrs. Doesn’t work on magic light."
+        },
+        {
+            "name": "Hypergin",
+            "description": "Very, very small vial. 920 proof. Catches on fire if it so much as sees a spark. Gets any human-sized thing immediately smashingly drunk."
+        },
+        {
+            "name": "Fumblecoin",
+            "description": "Anyone carrying this enchanted coin has two non-dominant hands and must reroll all attacks and acts of dexterity and take the worse result. Lasts 1d10 hours."
+        },
+        {
+            "name": "Flyboots",
+            "description": "Can climb up or down vertical surfaces provided the wearer is sprinting. Boots lose grip if the wearer slows down. Disastrous on sand, ivy, or gravel."
+        },
+        {
+            "name": "Bottled Fog",
+            "description": "Glass bottle wrapped in wire. Highly compressed. Can fill an entire house or street with dense yellow-grey mist. 10' visibility. Mist dissipates in 10 minutes."
+        },
+        {
+            "name": "Inventive Pictures",
+            "description": "Featuring men and/or women in morally compromised positions. Fancy magical pornography. There are no new kinks in the world, just new ways of looking at them."
+        },
+        {
+            "name": "Cousin M",
+            "description": "Pink rubber orb. Toss it and it inflates into a copy of you. Rubbery, waves arms, smells a bit like ham. Deflates in 1d10 minutes."
+        },
+        {
+            "name": "Gin-Drawer",
+            "description": "A legitimate-looking gin measure enchanted to carry more (or less) than the specified amount. Lets you get drunker cheaper or cheat customers."
+        },
+        {
+            "name": "Ratplicator",
+            "description": "Complex knot of glass, wire, and mercury. 10' range. Any rat hit by this weapon duplicates creating 1d10×1d10 additional identical rats. 1 use. Only works on rats."
+        },
+        {
+            "name": "Loathing Potion",
+            "description": "The opposite of a love potion. Anyone who drinks it will detest the first person they see for 24 hrs."
+        },
+        {
+            "name": "Unvisibility Hood",
+            "description": "Soft grey fabric. Fits onto one head. Target cannot see living people or items they carry. Target is not aware they are wearing a hood unless they eat, sneeze, or spit."
+        },
+        {
+            "name": "The Gabbler",
+            "description": "Pale blue potion. Drinker babbles for 2d10 minutes, speaking anything they think of in an effusive stream. It’s possible to keep secrets but it requires a lot of patience."
+        },
+        {
+            "name": "Peepbox",
+            "description": "Wooden box the size of a loaf of bread with a small brass eyepiece. Anyone who looks in is paralyzed for 1 minute by the mind-melting patterns inside."
+        },
+        {
+            "name": "Apocalypse Powder",
+            "description": "Alchemical salts mixed with gunpowder. Does everything normal gunpowder does but with a much louder noise, bright red smoke, and bouncing sparks."
+        },
+        {
+            "name": "Slitherdice",
+            "description": "Paired set. Rolls any number imagined by the thrower between 2 and 12, even if the dice are held down. The pips slide about as quick as vipers, hence the name."
+        },
+        {
+            "name": "Cobweb Dust",
+            "description": "Small brown bag full of magic dust and dormant spiders. Dump it and the spiders go nuts, fill the area with cobwebs. Harmless but makes area look undisturbed. 1 use."
+        },
+        {
+            "name": "Copper-Capper",
+            "description": "Enchanted copper helmet. Illusion spell disguises wearer as a stereotypical copper for 1d6 minutes. Spell is very fragile, not particularly convincing up close."
+        },
+        {
+            "name": "Hobblers",
+            "description": "Enchanted horseshoes. Horse can trot normally, canter wobblingly, gallop alarmingly off-course. Doesn’t harm the horse. Used to fix races and embarrass rivals."
+        }
+    ]
+    
+}
