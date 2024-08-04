@@ -1,12 +1,12 @@
 <!-- Import and use the table rendering macro -->
 {% from './pieces/basic_json_table.html' import render_table %}
 
-<section id="chapter_{{ chapters.trinket_generators.id }}" epub:type="chapter" class="chapter">
+<section id="{{ chapters.trinket_generators.id }}" epub:type="chapter" class="chapter">
     <h1 class="chapter">Chapter {{ chapter_number }}: {{ chapters.trinket_generators.title }}</h1>
 
     <p>These Generator tables create interesting things for characters, both PC and NPC.</p>
     
-    <section id="chapter_{{ chapters.trinket_generators.id }}_subchapter_{{ chapters.trinket_generators.sub_chapters.oddities.id}}" epub:type="section" class="subchapter">
+    <section id="{{ chapters.trinket_generators.sub_chapters.oddities.id}}" epub:type="section" class="subchapter">
         <h2 class="subchapter"><span class="subchapter_spacer">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{ chapters.trinket_generators.sub_chapters.oddities.title }}</h2>
         <p><em>Source: {{ oddities.source }}</em></p>
         <p><strong>Dice:</strong> {{ oddities.dice }}</p>

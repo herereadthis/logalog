@@ -1,19 +1,24 @@
-<section id="chapter_{{ chapters.table_of_contents.id }}" class="chapter">
+<section id="{{ chapters.table_of_contents.id }}" class="chapter">
     <nav epub:type="toc" id="toc">
-        <h1 class="chapter">Chapter {{ chapter_number }}: {{ chapters.table_of_contents.title }}</h1>
+        <h1 class="chapter">Chapter {{ number }}: {{ chapters.table_of_contents.title }}</h1>
         <ol>
-            <li><a href="#chapter_{{ chapters.table_of_contents.id }}">Chapter 0: {{ chapters.table_of_contents.title }}</a></li>
-            <li><a href="#chapter_{{ chapters.getting_started.id }}">Chapter 1: {{ chapters.getting_started.title }}</a></li>
-            <li><a href="#chapter_{{ chapters.advanced_topics.id }}">Chapter 2: {{ chapters.advanced_topics.title }}</a></li>
-            <li><a href="#chapter_{{ chapters.trinket_generators.id }}">Chapter 3: {{ chapters.trinket_generators.title }}</a>
+            <li><a href="#{{ chapters.table_of_contents.id }}">Chapter 0: {{ chapters.table_of_contents.title }}</a></li>
+            <li><a href="#{{ chapters.getting_started.id }}">Chapter 1: {{ chapters.getting_started.title }}</a></li>
+            <li><a href="#{{ chapters.advanced_topics.id }}">Chapter 2: {{ chapters.advanced_topics.title }}</a></li>
+            <li><a href="#{{ chapters.character_generators.id }}">Chapter 3: {{ chapters.character_generators.title }}</a>
+                <ul>
+                    <li><a href="#{{ chapters.character_generators.sub_chapters.wrongs_and_injustices.id}}">{{ chapters.character_generators.sub_chapters.wrongs_and_injustices.title }}</a></li>
+                </ul>
+            </li>
+            <li><a href="#{{ chapters.trinket_generators.id }}">Chapter 4: {{ chapters.trinket_generators.title }}</a>
                 <ul>
                     <li><a href="#{{ chapters.trinket_generators.sub_chapters.oddities.id}}">{{ chapters.trinket_generators.sub_chapters.oddities.title }}</a></li>
                     <li><a href="#{{ chapters.trinket_generators.sub_chapters.minor_magical_dubiously_legal.id}}">{{ chapters.trinket_generators.sub_chapters.minor_magical_dubiously_legal.title}}</a></li>
                     <li><a href="#{{ chapters.trinket_generators.sub_chapters.minor_magical_entertainment.id}}">{{ chapters.trinket_generators.sub_chapters.minor_magical_entertainment.title}}</a></li>
                 </ul>
             </li>
-            <li><a href="#chapter_{{ chapters.tarot_generators.id }}">Chapter 4: {{ chapters.tarot_generators.title }}</a></li>
-            <li><a href="#chapter_{{ chapters.oracles.id }}">Chapter 5: {{ chapters.oracles.title }}</a></li>
+            <li><a href="#{{ chapters.tarot_generators.id }}">Chapter 5: {{ chapters.tarot_generators.title }}</a></li>
+            <li><a href="#{{ chapters.oracles.id }}">Chapter 6: {{ chapters.oracles.title }}</a></li>
         </ol>
     </nav>
 </section>

@@ -1,0 +1,16 @@
+{% from './pieces/basic_json_table.html' import render_table %}
+
+<section id="{{ chapters.character_generators.id }}" epub:type="chapter" class="chapter">
+    <h1 class="chapter">Chapter {{ chapter_number }}: {{ chapters.character_generators.title }}</h1>
+    <p>Your content for lorem ipsum goes here...</p>
+
+
+    <section id="{{ chapters.character_generators.sub_chapters.wrongs_and_injustices.id}}" epub:type="section" class="subchapter">
+        <h2 class="subchapter"><span class="subchapter_spacer">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{ chapters.character_generators.sub_chapters.wrongs_and_injustices.title }}</h2>
+        <p><em>Source: {{ wrongs_and_injustices.source }}</em></p>
+        <p><strong>Dice:</strong> {{ wrongs_and_injustices.dice }}</p>
+        
+        <!-- Render the table with the outcomes data -->
+        {{ render_table(wrongs_and_injustices.outcomes) }}
+    </section>
+</section>

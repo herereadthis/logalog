@@ -1,15 +1,25 @@
 {
     "table_of_contents": {
         "title": "Table of contents",
-        "id": 0
+        "id": "table_of_contents"
     },
     "getting_started": {
         "title": "Getting Started",
-        "id": 1
+        "id": "getting_started"
     },
     "advanced_topics": {
         "title": "Advanced Topics",
-        "id": 2
+        "id": "advanced_topics"
+    },
+    "character_generators": {
+        "title": "Character Generators",
+        "id": "character_generators",
+        "sub_chapters": {
+            "wrongs_and_injustices": {
+                "title": "Wrongs and Injustices",
+                "id": "wrongs_and_injustices"
+            }
+        }
     },
     "trinket_generators": {
         "title": "Random Generators for Trinkets",

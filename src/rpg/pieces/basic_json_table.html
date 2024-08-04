@@ -26,6 +26,10 @@
     font-weight: bold;
     padding-right: 2.4rem;
 }
+.basic_json_table_name.empty {
+    padding: 0;
+    margin: 0;
+}
 
 .basic_json_table_index {
     font-size: 3.2rem;
@@ -42,7 +46,11 @@
         {% for outcome in data %}
         <tr>
             <td class="basic_json_table_index">{{ loop.index }}</td>
-            <td class="basic_json_table_name">{{ outcome.name }}</td>
+            {% if 'name' in outcome %}
+                <td class="basic_json_table_name">{{ outcome.name }}</td>
+            {% else %}
+                <td class="basic_json_table_name empty"></td>
+            {% endif %}
             <td class="basic_json_table_description">{{ outcome.description }}</td>
         </tr>
         {% endfor %}

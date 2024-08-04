@@ -26,11 +26,16 @@ def load_minor_magical_dubiously_legal():
     with open('./json/random_tables/minor_magical_dubiously_legal.json', 'r') as file:
         return json.load(file)
 
+def load_wrongs_and_injustices():
+    with open('./json/random_tables/wrongs_and_injustices.json', 'r') as file:
+        return json.load(file)
+
 def build():
     chapters = load_chapter_metadata()
     magical_entertainment = load_minor_magical_entertainment()
     minor_magical_dubiously_legal = load_minor_magical_dubiously_legal()
     oddities = load_oddities()
+    wrongs_and_injustices = load_wrongs_and_injustices()
 
     template = env.get_template('./main.html')
 
@@ -39,7 +44,8 @@ def build():
         chapters=chapters,
         magical_entertainment=magical_entertainment,
         minor_magical_dubiously_legal=minor_magical_dubiously_legal,
-        oddities=oddities
+        oddities=oddities,
+        wrongs_and_injustices=wrongs_and_injustices
     )
 
     # Write the rendered HTML to the output file
