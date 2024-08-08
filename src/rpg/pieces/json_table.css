@@ -1,0 +1,46 @@
+.basic_json_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.basic_json_table tr:first-child td {
+    border-top: 0.00625em solid #000;
+    padding-top: 0.4375em;
+}
+
+.basic_json_table td {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom: 0.00625em solid #000;
+    border-left-width: 0;
+    vertical-align: top;
+    padding-top: 0.5em;
+    padding-bottom: 0.4375em;
+    min-height: 2em;
+}
+
+.basic_json_table p {
+    margin-bottom: 0;
+}
+
+.basic_json_table_name {
+    font-weight: bold;
+    padding-right: 1em;
+}
+
+
+.basic_json_table_name.empty {
+    padding: 0;
+    margin: 0;
+}
+
+.basic_json_table_index {
+    padding-right: 1em;
+    text-align: right;
+}
+
+.basic_json_table_index p {
+    font-size: 2em;
+    line-height: 1;
+    margin: 0;
+}

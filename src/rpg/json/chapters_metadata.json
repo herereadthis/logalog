@@ -26,8 +26,12 @@
         "id": 3,
         "sub_chapters": {
             "oddities": {
-                "title": "Oddities",
+                "title": "Starter Arcana: Oddities",
                 "id": "oddities"
+            },
+            "minor_magical_tools": {
+                "title": "Minor Magical Items: Tools",
+                "id": "minor_magical_tools"
             },
             "minor_magical_entertainment": {
                 "title": "Minor Magical Items: Entertainment",

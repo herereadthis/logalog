@@ -1,7 +1,8 @@
 {
     "title": "Wrongs and Injustices",
     "source": "Into the Odd",
-    "dice": "D50",
+    "description": "After rolling: odd number means it's something character has done, even number means some other person has done to the character.",
+    "dice": "D100",
     "outcomes": [
         {
             "description": "Sold an item that did not operate as promised. Refused a refund."

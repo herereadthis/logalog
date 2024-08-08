@@ -1,16 +1,22 @@
-{% from './pieces/basic_json_table.html' import render_table %}
+{% from './pieces/basic_json_table.html' import render_basic_json_table %}
+{% from './pieces/d50_json_table.html' import render_d50_json_table %}
 
 <section id="{{ chapters.character_generators.id }}" epub:type="chapter" class="chapter">
-    <h1 class="chapter">Chapter {{ chapter_number }}: {{ chapters.character_generators.title }}</h1>
+    <h1 class="chapter">{{ chapter_number }}: {{ chapters.character_generators.title }}</h1>
     <p>Your content for lorem ipsum goes here...</p>
 
 
     <section id="{{ chapters.character_generators.sub_chapters.wrongs_and_injustices.id}}" epub:type="section" class="subchapter">
-        <h2 class="subchapter"><span class="subchapter_spacer">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{ chapters.character_generators.sub_chapters.wrongs_and_injustices.title }}</h2>
-        <p><em>Source: {{ wrongs_and_injustices.source }}</em></p>
-        <p><strong>Dice:</strong> {{ wrongs_and_injustices.dice }}</p>
+        <h2 class="subchapter">{{ chapter_number }}.1: {{ chapters.character_generators.sub_chapters.wrongs_and_injustices.title }}</h2>
+        <p>
+            <strong>Roll a {{ wrongs_and_injustices.dice }}</strong>. 
+            {% if 'description' in wrongs_and_injustices %}
+                {{ wrongs_and_injustices.description | safe }}
+            {% endif %}
+            Source: <em>{{ wrongs_and_injustices.source | safe }}</em>
+        </p>
         
         <!-- Render the table with the outcomes data -->
-        {{ render_table(wrongs_and_injustices.outcomes) }}
+        {{ render_d50_json_table(wrongs_and_injustices.outcomes) }}
     </section>
 </section>

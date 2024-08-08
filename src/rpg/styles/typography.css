@@ -1,49 +1,41 @@
 /* Base typography styles */
-body {
+
+
+h1, h2 {
+    font-family: 'Avenir Next', 'Avenir';
 }
 
-h1 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
+p, li, span, td, h3, h4 {
+    font-family: Georgia;
 }
 
 p {
     font-size: 1em;
-    margin-bottom: 1em;
-}
-
-h1, h2 {
-    font-family: Helvetica;
-}
-
-p, li, span, td,  h3, h4 {
-    font-family: Georgia;
-}
-
-p, li, td {
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-}
-
-p {
-    margin: 0 0 2.4rem 0;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
     padding: 0;
 }
 
 h1 {
-    font-size: 3.2rem;
-    line-height: 4.8rem;
+    font-size: 3em;
+    line-height: 1.3333;
     font-weight: normal;
     margin: 0;
     padding: 0;
 }
 
 h2 {
-    font-size: 2.4rem;
-    line-height: 4.8rem;
+    font-size: 2em;
+    line-height: 1.5;
     font-weight: normal;
     margin: 0;
     padding: 0;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0;
 }
 
 ol, ul {
@@ -56,7 +48,7 @@ li > p {
 }
 
 li {
-    margin: 0 0 0 2.4rem;
+    margin: 0 0 0 1.5em;
     padding: 0;
 }
 
@@ -64,3 +56,86 @@ li {
 .subchapter_spacer {
     display: none;
 }
+
+
+
+.tarot_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tarot_table td {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    vertical-align: top;
+}
+
+.tarot_table p {
+    margin-bottom: 0;
+}
+
+.tarot_table tr td.tarot_table_heading {
+    padding-top: 1em;
+    padding-bottom: 0.9375em;
+}
+.tarot_table tr:first-child td.tarot_table_heading {
+    border-top: 0.00625em solid #000;
+    padding-top: 0.9375em;
+}
+
+.tarot_table_heading p {
+    font-size: 2em;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.tarot_table_name {
+    font-weight: bold;
+    padding-right: 1.5em;
+    word-wrap:break-word;
+}
+
+
+
+.tarot_table_index {
+    padding-right: 1em;
+    text-align: right;
+    min-height: 2em;
+}
+.tarot_table_index_upright {
+    padding-right: 0.5em;
+    text-align: right;
+}
+.tarot_table_index_reversed {
+    padding-right: 0.5em;
+    text-align: right;
+}
+.tarot_table_description_upright {
+    padding-bottom: 0;
+
+}
+.tarot_table_description_reversed {
+    padding-top: 0;
+}
+
+.tarot_table_index, .tarot_table_name,
+.tarot_table_index_upright, .tarot_table_description_upright {
+    padding-top: 0.5em;
+}
+
+.tarot_table_heading,
+.tarot_table_index, .tarot_table_name,
+.tarot_table_index_reversed,
+.tarot_table_description_reversed {
+    padding-bottom: 0.4375em;
+    border-bottom: 0.00625rem solid #000;
+}
+
+.tarot_table_index p {
+    font-size: 2em;
+    line-height: 1;
+    margin: 0;
+}
+

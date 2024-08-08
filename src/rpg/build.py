@@ -18,6 +18,11 @@ def load_oddities():
     with open('./json/random_tables/oddities.json', 'r') as file:
         return json.load(file)
 
+
+def load_minor_magical_tools():
+    with open('./json/random_tables/minor_magical_tools.json', 'r') as file:
+        return json.load(file)
+
 def load_minor_magical_entertainment():
     with open('./json/random_tables/minor_magical_entertainment.json', 'r') as file:
         return json.load(file)
@@ -30,22 +35,30 @@ def load_wrongs_and_injustices():
     with open('./json/random_tables/wrongs_and_injustices.json', 'r') as file:
         return json.load(file)
 
+def load_tarot():
+    with open('./json/tarot.json', 'r') as file:
+        return json.load(file)
+
 def build():
     chapters = load_chapter_metadata()
-    magical_entertainment = load_minor_magical_entertainment()
+    minor_magical_tools = load_minor_magical_tools()
+    minor_magical_entertainment = load_minor_magical_entertainment()
     minor_magical_dubiously_legal = load_minor_magical_dubiously_legal()
     oddities = load_oddities()
     wrongs_and_injustices = load_wrongs_and_injustices()
+    tarot = load_tarot()
 
     template = env.get_template('./main.html')
 
     # Render the main template with the necessary context
     html_output = template.render(
         chapters=chapters,
-        magical_entertainment=magical_entertainment,
+        minor_magical_tools=minor_magical_tools,
+        minor_magical_entertainment=minor_magical_entertainment,
         minor_magical_dubiously_legal=minor_magical_dubiously_legal,
         oddities=oddities,
-        wrongs_and_injustices=wrongs_and_injustices
+        wrongs_and_injustices=wrongs_and_injustices,
+        tarot=tarot
     )
 
     # Write the rendered HTML to the output file

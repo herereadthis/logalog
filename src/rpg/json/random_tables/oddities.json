@@ -1,7 +1,7 @@
 {
-    "name": "Oddities",
-    "source": "Bastionland",
-    "description": "Here is an \"Into the Odd\" D100 table for oddities, taken from the <a href=\"https://www.bastionland.com/2016/01/d100-oddities-for-new-characters.html\">bastionland.com</a> blog.",
+    "title": "Starter Arcana: Oddities",
+    "source": "<a href=\"https://www.bastionland.com/2016/01/d100-oddities-for-new-characters.html\">bastionland.com</a> blog",
+    "description": "An alternative for starter arcana.",
     "dice": "D100",
     "outcomes": [
     {

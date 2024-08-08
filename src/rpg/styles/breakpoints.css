@@ -1,7 +1,6 @@
 /* Container for the text */
 .container {
     margin: 0 auto;
-    padding: 1rem;
     max-width: 100%;
 }
 
@@ -15,20 +14,20 @@
 /* Medium devices (tablets) */
 @media (min-width: 601px) and (max-width: 900px) {
     .container {
-        max-width: 80%;
+        max-width: 100%;
     }
 }
 
 /* Large devices (laptops/desktops) */
 @media (min-width: 901px) and (max-width: 1200px) {
     .container {
-        max-width: 70%;
+        max-width: 820px;
     }
 }
 
 /* Extra large devices (large desktops) */
 @media (min-width: 1201px) {
     .container {
-        max-width: 60%;
+        max-width: 960px;
     }
 }

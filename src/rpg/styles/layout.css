@@ -3,10 +3,8 @@ html {
     justify-content: center;
     align-items: center; */
     min-height: 100vh;
+    /* font-size: 62.5%; */
     /* background-color: #f4f4f4; */
-    font-size: 62.5%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
     overflow: -moz-scrollbars-vertical;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -17,14 +15,12 @@ body {
     font-size: 100%;
     position: relative;
     text-rendering: optimizelegibility;
-    font-size: 1em;
-    line-height: 1;
+    /* line-height: 1; */
 }
 
 .container {
     /* border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-    padding: 2rem;
     box-sizing: border-box;
 }
 
@@ -32,16 +28,23 @@ article {
     page-break-before: always;
 }
 
-#toc ol > li {
-    margin-bottom: 2rem;
+#toc > ul > li {
+    margin-bottom: 1.5em;
+    margin-left: 0;
 }
 
+#toc ul {
+    list-style: none;
+    margin: 0;
+}
+
+
 section.chapter {
-    margin-bottom: 7.2rem;
+    margin-bottom: 4.5em;
 }
 
 section.subchapter {
-    margin-bottom: 4.8rem;
+    margin-bottom: 3em;
 }
 
 section.subchapter:last-of-type {

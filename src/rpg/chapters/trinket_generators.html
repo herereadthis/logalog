@@ -1,47 +1,17 @@
 <!-- Import and use the table rendering macro -->
-{% from './pieces/basic_json_table.html' import render_table %}
+{% from './pieces/basic_json_table.html' import render_basic_json_table %}
+{% from './pieces/basic_json_table_section.html' import render_basic_json_table_section %}
 
 <section id="{{ chapters.trinket_generators.id }}" epub:type="chapter" class="chapter">
-    <h1 class="chapter">Chapter {{ chapter_number }}: {{ chapters.trinket_generators.title }}</h1>
+    <h1 class="chapter">{{ chapter_number }}: {{ chapters.trinket_generators.title }}</h1>
 
     <p>These Generator tables create interesting things for characters, both PC and NPC.</p>
     
-    <section id="{{ chapters.trinket_generators.sub_chapters.oddities.id}}" epub:type="section" class="subchapter">
-        <h2 class="subchapter"><span class="subchapter_spacer">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{ chapters.trinket_generators.sub_chapters.oddities.title }}</h2>
-        <p><em>Source: {{ oddities.source }}</em></p>
-        <p><strong>Dice:</strong> {{ oddities.dice }}</p>
-        
-        <!-- Render the table with the outcomes data -->
-        {{ render_table(oddities.outcomes) }}
-    </section>
 
-
-    <section id="{{ chapters.trinket_generators.sub_chapters.minor_magical_dubiously_legal.id}}" epub:type="section" class="subchapter">
-        <h2 class="subchapter"><span class="subchapter_spacer">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{ chapters.trinket_generators.sub_chapters.minor_magical_dubiously_legal.title }}</h2>
-        <p><em>Source: {{ minor_magical_dubiously_legal.source }}</em></p>
-        <p><strong>Dice:</strong> {{ minor_magical_dubiously_legal.dice }}</p>
-        
-        <!-- Render the table with the outcomes data -->
-        {{ render_table(minor_magical_dubiously_legal.outcomes) }}
-    </section>
-
-    <section id="{{ chapters.trinket_generators.sub_chapters.minor_magical_dubiously_legal.id}}" epub:type="section" class="subchapter">
-        <h2 class="subchapter"><span class="subchapter_spacer">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{ chapters.trinket_generators.sub_chapters.minor_magical_dubiously_legal.title }}</h2>
-        <p><em>Source: {{ minor_magical_dubiously_legal.source }}</em></p>
-        <p><strong>Dice:</strong> {{ minor_magical_dubiously_legal.dice }}</p>
-        
-        <!-- Render the table with the outcomes data -->
-        {{ render_table(minor_magical_dubiously_legal.outcomes) }}
-    </section>
-
-    <section id="{{ chapters.trinket_generators.sub_chapters.minor_magical_entertainment.id}}" epub:type="section" class="subchapter">
-        <h2 class="subchapter"><span class="subchapter_spacer">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{ chapters.trinket_generators.sub_chapters.minor_magical_entertainment.title }}</h2>
-        <p><em>Source: {{ magical_entertainment.source }}</em></p>
-        <p><strong>Dice:</strong> {{ magical_entertainment.dice }}</p>
-        
-        <!-- Render the table with the outcomes data -->
-        {{ render_table(magical_entertainment.outcomes) }}
-    </section>
+    {{ render_basic_json_table_section(oddities, chapters.trinket_generators.sub_chapters.oddities.id, chapter_number, '1')}}
+    {{ render_basic_json_table_section(minor_magical_tools, chapters.trinket_generators.sub_chapters.minor_magical_tools.id, chapter_number, '2')}}
+    {{ render_basic_json_table_section(minor_magical_entertainment, chapters.trinket_generators.sub_chapters.minor_magical_entertainment.id, chapter_number, '3')}}
+    {{ render_basic_json_table_section(minor_magical_dubiously_legal, chapters.trinket_generators.sub_chapters.minor_magical_dubiously_legal.id, chapter_number, '4')}}
         
         
         
