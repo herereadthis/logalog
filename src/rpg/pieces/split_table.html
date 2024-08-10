@@ -1,5 +1,5 @@
-{% macro render_basic_json_table(data) %}
-<table class="basic_json_table" cellpadding="0" cellspacing="0">
+{% macro render_split_table(data) %}
+<table class="split_table" cellpadding="0" cellspacing="0">
     <tbody>{% for outcome in data %}
         <tr>
             <td class="basic_json_table_index"><p>{{ loop.index }}</p></td>

@@ -5,9 +5,8 @@
     <h1 class="chapter">{{ chapter_number }}: {{ chapters.character_generators.title }}</h1>
     <p>Your content for lorem ipsum goes here...</p>
 
-
-    <section id="{{ chapters.character_generators.sub_chapters.wrongs_and_injustices.id}}" epub:type="section" class="subchapter">
-        <h2 class="subchapter">{{ chapter_number }}.1: {{ chapters.character_generators.sub_chapters.wrongs_and_injustices.title }}</h2>
+    <section epub:type="section">
+        <h2 id="{{ chapters.character_generators.sub_chapters.wrongs_and_injustices.id }}" class="subchapter">{{ chapter_number }}.1: {{ chapters.character_generators.sub_chapters.wrongs_and_injustices.title }}</h2>
         <p>
             <strong>Roll a {{ wrongs_and_injustices.dice }}</strong>. 
             {% if 'description' in wrongs_and_injustices %}

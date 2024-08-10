@@ -21,6 +21,10 @@
             }
         }
     },
+    "npc_creation": {
+        "title": "NPC Creation",
+        "id": "npc_creation"
+    },
     "trinket_generators": {
         "title": "Random Generators for Trinkets",
         "id": 3,
@@ -32,6 +36,14 @@
             "minor_magical_tools": {
                 "title": "Minor Magical Items: Tools",
                 "id": "minor_magical_tools"
+            },
+            "minor_magical_food_and_drink": {
+                "title": "Minor Magical Food and Drink",
+                "id": "minor_magical_food_and_drink"
+            },
+            "minor_magical_personal_items": {
+                "title": "Minor Magical Items: Personal Items",
+                "id": "minor_magical_personal_items"
             },
             "minor_magical_entertainment": {
                 "title": "Minor Magical Items: Entertainment",

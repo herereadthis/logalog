@@ -1,0 +1,101 @@
+{
+    "source": "Stars Without Number, page 244",
+    "tables": {
+        "background": {
+            "dice": "D6",
+            "title": "Background",
+            "outcomes": [
+                "The local underclass or poorest natives",
+                "Common laborers or cube workers",
+                "Aspiring bourgeoise or upper class",
+                "The elite of this society",
+                "Minority or foreigners; reroll on 1d4",
+                "Offworlders or exotics; reroll on 1d4"
+            ]
+        },
+        "role_in_society": {
+            "dice": "D8",
+            "title": "Role in Society",
+            "outcomes": [
+                "Criminal, thug, thief, swindler",
+                "Menial, cleaner, retail worker, servant",
+                "Unskilled heavy labor, porter, construction",
+                "Skilled trade, electrician, mechanic, pilot",
+                "Idea worker, programmer, writer",
+                "Merchant, business owner, trader, banker",
+                "Official, bureaucrat, courtier, clerk",
+                "Military, soldier, enforcer, law officer"
+            ]
+        },
+        "biggest_problem": {
+            "dice": "D10",
+            "title": "Biggest Problem",
+            "outcomes": [
+                "They have significant debt or money woes",
+                "A loved one is in trouble; reroll for it",
+                "Romantic failure with a desired person",
+                "Drug or behavioral addiction",
+                "Their superior dislikes or resents them",
+                "They have a persistent sickness",
+                "They hate their job or life situation",
+                "Someone dangerous is targeting them",
+                "They’re pursuing a disastrous purpose",
+                "They have no problems worth mentioning"
+            ]
+        },
+        "age": {
+            "dice": "D4",
+            "title": "Age",
+            "outcomes": [
+                "Unusually young or old for their role",
+                "Young adult",
+                "Mature prime",
+                "Middle-aged or elderly"
+            ]
+        },
+        "greatest_desire": {
+            "dice": "D12",
+            "title": "Greatest Desire",
+            "outcomes": [
+                "They want a particular romantic partner",
+                "They want money for them or a loved one",
+                "They want a promotion in their job",
+                "They want answers about a past trauma",
+                "They want revenge on an enemy",
+                "They want to help a beleaguered friend",
+                "They want an entirely different job",
+                "They want protection from an enemy",
+                "They want to leave their current life",
+                "They want fame and glory",
+                "They want power over those around them",
+                "They have everything they want from life"
+            ]
+        },
+        "most_obvious_character_trait": {
+            "dice": "D20",
+            "title": "Most obvious character trait",
+            "outcomes": [
+                "Ambition",
+                "Avarice",
+                "Bitterness",
+                "Courage",
+                "Cowardice",
+                "Curiosity",
+                "Deceitfulness",
+                "Determination",
+                "Devotion to a cause",
+                "Filiality",
+                "Hatred",
+                "Honesty",
+                "Hopefulness",
+                "Love of a person",
+                "Nihilism",
+                "Paternalism",
+                "Pessimism",
+                "Protectiveness",
+                "Resentment",
+                "Shame"
+            ]
+        }
+    }
+}

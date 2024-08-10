@@ -2,17 +2,14 @@
 {% from './pieces/basic_json_table.html' import render_basic_json_table %}
 
 
-<section id="{{ id }}" epub:type="section" class="subchapter">
-    <h2 class="subchapter">{{ chapter_number }}.{{ section_number }}: {{ data.title }}</h2>
-    <p>
-        <strong>Roll a {{ data.dice }}</strong>. 
+<section epub:type="section">
+    <h2  id="{{ id }}" class="subchapter">{{ chapter_number }}.{{ section_number }}: {{ data.title }}</h2>
+    <p><strong>Roll a {{ data.dice }}</strong>. 
         {% if 'description' in data %}
             {{ data.description | safe }}
         {% endif %}
         Source: <em>{{ data.source | safe }}</em>
     </p>
-    
-    <!-- Render the table with the outcomes data -->
     {{ render_basic_json_table(data.outcomes) }}
 </section>
 

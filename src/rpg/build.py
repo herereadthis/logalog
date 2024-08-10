@@ -23,6 +23,16 @@ def load_minor_magical_tools():
     with open('./json/random_tables/minor_magical_tools.json', 'r') as file:
         return json.load(file)
 
+
+def load_minor_magical_food_and_drink():
+    with open('./json/random_tables/minor_magical_food_and_drink.json', 'r') as file:
+        return json.load(file)
+
+
+def load_minor_magical_personal_items():
+    with open('./json/random_tables/minor_magical_personal_items.json', 'r') as file:
+        return json.load(file)
+
 def load_minor_magical_entertainment():
     with open('./json/random_tables/minor_magical_entertainment.json', 'r') as file:
         return json.load(file)
@@ -42,6 +52,8 @@ def load_tarot():
 def build():
     chapters = load_chapter_metadata()
     minor_magical_tools = load_minor_magical_tools()
+    minor_magical_food_and_drink = load_minor_magical_food_and_drink()
+    minor_magical_personal_items = load_minor_magical_personal_items()
     minor_magical_entertainment = load_minor_magical_entertainment()
     minor_magical_dubiously_legal = load_minor_magical_dubiously_legal()
     oddities = load_oddities()
@@ -54,6 +66,8 @@ def build():
     html_output = template.render(
         chapters=chapters,
         minor_magical_tools=minor_magical_tools,
+        minor_magical_food_and_drink=minor_magical_food_and_drink,
+        minor_magical_personal_items=minor_magical_personal_items,
         minor_magical_entertainment=minor_magical_entertainment,
         minor_magical_dubiously_legal=minor_magical_dubiously_legal,
         oddities=oddities,
