@@ -1,6 +1,7 @@
 .basic_json_table {
     border-collapse: collapse;
     width: 100%;
+    margin-bottom: 3em;
 }
 
 .basic_json_table .first_row td {
@@ -45,8 +46,15 @@
     margin: 0;
 }
 
+.double_json_table_heading {
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
 .double_json_table {
     border-collapse: collapse;
+    margin-bottom: 1.5em;
 }
 
 

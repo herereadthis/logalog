@@ -5,11 +5,47 @@
     <h1 class="chapter">{{ chapter_number }}: {{ chapters.npc_creation.title }}</h1>
     <p>Your content for lorem ipsum goes here...</p>
 
+    <section>
+        <h2 id="{{ chapters.npc_creation.sub_chapters.swn_one_roll_npc.id }}" class="subchapter">{{ chapter_number }}.1: {{ chapters.npc_creation.sub_chapters.swn_one_roll_npc.title }}</h2>
+        <p>{% if 'description' in swn_one_roll_npc %}
+                {{ swn_one_roll_npc.description | safe }}
+            {% endif %}
+            Source: <em>{{ swn_one_roll_npc.source | safe }}</em>
+        </p>
+        <h3 class="double_json_table_heading sans_serif">{{ swn_one_roll_npc.tables.background.title }} ({{ swn_one_roll_npc.tables.background.dice }})</h3>
+        {{ render_double_json_table(swn_one_roll_npc.tables.background.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ swn_one_roll_npc.tables.role_in_society.title }} ({{ swn_one_roll_npc.tables.role_in_society.dice }})</h3>
+        {{ render_double_json_table(swn_one_roll_npc.tables.role_in_society.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ swn_one_roll_npc.tables.biggest_problem.title }} ({{ swn_one_roll_npc.tables.biggest_problem.dice }})</h3>
+        {{ render_double_json_table(swn_one_roll_npc.tables.biggest_problem.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ swn_one_roll_npc.tables.age.title }} ({{ swn_one_roll_npc.tables.age.dice }})</h3>
+        {{ render_double_json_table(swn_one_roll_npc.tables.age.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ swn_one_roll_npc.tables.greatest_desire.title }} ({{ swn_one_roll_npc.tables.greatest_desire.dice }})</h3>
+        {{ render_double_json_table(swn_one_roll_npc.tables.greatest_desire.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ swn_one_roll_npc.tables.most_obvious_character_trait.title }} ({{ swn_one_roll_npc.tables.most_obvious_character_trait.dice }})</h3>
+        {{ render_quad_json_table(swn_one_roll_npc.tables.most_obvious_character_trait.outcomes) }}
+    </section>
 
-    {{ render_double_json_table(swn_one_roll_npc.tables.background.outcomes) }}
-    {{ render_double_json_table(swn_one_roll_npc.tables.role_in_society.outcomes) }}
-    {{ render_double_json_table(swn_one_roll_npc.tables.biggest_problem.outcomes) }}
-    {{ render_double_json_table(swn_one_roll_npc.tables.age.outcomes) }}
-    {{ render_double_json_table(swn_one_roll_npc.tables.greatest_desire.outcomes) }}
-    {{ render_quad_json_table(swn_one_roll_npc.tables.most_obvious_character_trait.outcomes) }}
+    <section>
+        <h2 id="{{ chapters.npc_creation.sub_chapters.wwn_appearances_and_mannerisms.id }}" class="subchapter">{{ chapter_number }}.2: {{ chapters.npc_creation.sub_chapters.wwn_appearances_and_mannerisms.title }}</h2>
+        <p>{% if 'description' in wwn_appearances_and_mannerisms %}
+                {{ wwn_appearances_and_mannerisms.description | safe }}
+            {% endif %}
+            Source: <em>{{ wwn_appearances_and_mannerisms.source | safe }}</em>
+        </p>
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_appearances_and_mannerisms.tables.way_they_move.title }} ({{ wwn_appearances_and_mannerisms.tables.way_they_move.dice }})</h3>
+        {{ render_double_json_table(wwn_appearances_and_mannerisms.tables.way_they_move.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_appearances_and_mannerisms.tables.clothing_idiosyncrasies.title }} ({{ wwn_appearances_and_mannerisms.tables.clothing_idiosyncrasies.dice }})</h3>
+        {{ render_double_json_table(wwn_appearances_and_mannerisms.tables.clothing_idiosyncrasies.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_appearances_and_mannerisms.tables.first_thing_noticed.title }} ({{ wwn_appearances_and_mannerisms.tables.first_thing_noticed.dice }})</h3>
+        {{ render_double_json_table(wwn_appearances_and_mannerisms.tables.first_thing_noticed.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_appearances_and_mannerisms.tables.general_physical_build.title }} ({{ wwn_appearances_and_mannerisms.tables.general_physical_build.dice }})</h3>
+        {{ render_double_json_table(wwn_appearances_and_mannerisms.tables.general_physical_build.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_appearances_and_mannerisms.tables.differ_from_expectations.title }} ({{ wwn_appearances_and_mannerisms.tables.differ_from_expectations.dice }})</h3>
+        {{ render_double_json_table(wwn_appearances_and_mannerisms.tables.differ_from_expectations.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_appearances_and_mannerisms.tables.visible_mannerisms.title }} ({{ wwn_appearances_and_mannerisms.tables.visible_mannerisms.dice }})</h3>
+        {{ render_double_json_table(wwn_appearances_and_mannerisms.tables.visible_mannerisms.outcomes) }}
+    </section>
+
+    {% include './pieces/return_to_toc.html' %}
 </section>

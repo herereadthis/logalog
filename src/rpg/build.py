@@ -31,6 +31,10 @@ def load_minor_magical_food_and_drink():
 def load_swn_one_roll_npc():
     with open('./json/random_tables/swn_one_roll_npc.json', 'r') as file:
         return json.load(file)
+    
+def load_wwn_appearances_and_mannerisms():
+    with open('./json/random_tables/wwn_appearances_and_mannerisms.json', 'r') as file:
+        return json.load(file)
 
 def load_minor_magical_personal_items():
     with open('./json/random_tables/minor_magical_personal_items.json', 'r') as file:
@@ -60,6 +64,7 @@ def build():
     minor_magical_entertainment = load_minor_magical_entertainment()
     minor_magical_dubiously_legal = load_minor_magical_dubiously_legal()
     swn_one_roll_npc = load_swn_one_roll_npc()
+    wwn_appearances_and_mannerisms = load_wwn_appearances_and_mannerisms()
     oddities = load_oddities()
     wrongs_and_injustices = load_wrongs_and_injustices()
     tarot = load_tarot()
@@ -77,6 +82,7 @@ def build():
         oddities=oddities,
         swn_one_roll_npc=swn_one_roll_npc,
         wrongs_and_injustices=wrongs_and_injustices,
+        wwn_appearances_and_mannerisms=wwn_appearances_and_mannerisms,
         tarot=tarot
     )
 

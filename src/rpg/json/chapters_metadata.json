@@ -23,7 +23,17 @@
     },
     "npc_creation": {
         "title": "NPC Creation",
-        "id": "npc_creation"
+        "id": "npc_creation",
+        "sub_chapters": {
+            "swn_one_roll_npc": {
+                "title": "One Roll NPC",
+                "id": "swn_one_roll_npc"
+            },
+            "wwn_appearances_and_mannerisms": {
+                "title": "Appearances and Mannerisms",
+                "id": "wwn_appearances_and_mannerisms"
+            }
+        }
     },
     "trinket_generators": {
         "title": "Random Generators for Trinkets",
