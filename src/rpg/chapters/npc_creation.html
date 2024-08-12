@@ -47,5 +47,26 @@
         {{ render_double_json_table(wwn_appearances_and_mannerisms.tables.visible_mannerisms.outcomes) }}
     </section>
 
+    <section>
+        <h2 id="{{ chapters.npc_creation.sub_chapters.wwn_burning_ambitions.id }}" class="subchapter">{{ chapter_number }}.2: {{ chapters.npc_creation.sub_chapters.wwn_burning_ambitions.title }}</h2>
+        <p>{% if 'description' in wwn_burning_ambitions %}
+                {{ wwn_burning_ambitions.description | safe }}
+            {% endif %}
+            Source: <em>{{ wwn_burning_ambitions.source | safe }}</em>
+        </p>
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_burning_ambitions.tables.who_knows_involved.title }} ({{ wwn_burning_ambitions.tables.who_knows_involved.dice }})</h3>
+        {{ render_double_json_table(wwn_burning_ambitions.tables.who_knows_involved.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_burning_ambitions.tables.tools_to_advance.title }} ({{ wwn_burning_ambitions.tables.tools_to_advance.dice }})</h3>
+        {{ render_double_json_table(wwn_burning_ambitions.tables.tools_to_advance.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_burning_ambitions.tables.ambition_form.title }} ({{ wwn_burning_ambitions.tables.ambition_form.dice }})</h3>
+        {{ render_double_json_table(wwn_burning_ambitions.tables.ambition_form.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_burning_ambitions.tables.ambition_spark.title }} ({{ wwn_burning_ambitions.tables.ambition_spark.dice }})</h3>
+        {{ render_double_json_table(wwn_burning_ambitions.tables.ambition_spark.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_burning_ambitions.tables.biggest_obstacle.title }} ({{ wwn_burning_ambitions.tables.biggest_obstacle.dice }})</h3>
+        {{ render_double_json_table(wwn_burning_ambitions.tables.biggest_obstacle.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_burning_ambitions.tables.help_or_hinder.title }} ({{ wwn_burning_ambitions.tables.help_or_hinder.dice }})</h3>
+        {{ render_double_json_table(wwn_burning_ambitions.tables.help_or_hinder.outcomes) }}
+    </section>
+
     {% include './pieces/return_to_toc.html' %}
 </section>

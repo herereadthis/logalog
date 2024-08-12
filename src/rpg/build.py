@@ -10,81 +10,31 @@ env = Environment(
     autoescape=select_autoescape(['html', 'xml'])
 )
 
-def load_chapter_metadata():
-    with open('./json/chapters_metadata.json', 'r') as file:
+def load_json(file_path):
+    """General function to load a JSON file."""
+    with open(file_path, 'r') as file:
         return json.load(file)
 
-def load_oddities():
-    with open('./json/random_tables/oddities.json', 'r') as file:
-        return json.load(file)
-
-
-def load_minor_magical_tools():
-    with open('./json/random_tables/minor_magical_tools.json', 'r') as file:
-        return json.load(file)
-
-
-def load_minor_magical_food_and_drink():
-    with open('./json/random_tables/minor_magical_food_and_drink.json', 'r') as file:
-        return json.load(file)
-
-def load_swn_one_roll_npc():
-    with open('./json/random_tables/swn_one_roll_npc.json', 'r') as file:
-        return json.load(file)
-    
-def load_wwn_appearances_and_mannerisms():
-    with open('./json/random_tables/wwn_appearances_and_mannerisms.json', 'r') as file:
-        return json.load(file)
-
-def load_minor_magical_personal_items():
-    with open('./json/random_tables/minor_magical_personal_items.json', 'r') as file:
-        return json.load(file)
-
-def load_minor_magical_entertainment():
-    with open('./json/random_tables/minor_magical_entertainment.json', 'r') as file:
-        return json.load(file)
-
-def load_minor_magical_dubiously_legal():
-    with open('./json/random_tables/minor_magical_dubiously_legal.json', 'r') as file:
-        return json.load(file)
-
-def load_wrongs_and_injustices():
-    with open('./json/random_tables/wrongs_and_injustices.json', 'r') as file:
-        return json.load(file)
-
-def load_tarot():
-    with open('./json/tarot.json', 'r') as file:
-        return json.load(file)
+file_paths = [
+    ('chapters', './json/chapters_metadata.json'),
+    ('minor_magical_tools', './json/random_tables/minor_magical_tools.json'),
+    ('minor_magical_food_and_drink', './json/random_tables/minor_magical_food_and_drink.json'),
+    ('minor_magical_personal_items', './json/random_tables/minor_magical_personal_items.json'),
+    ('minor_magical_entertainment', './json/random_tables/minor_magical_entertainment.json'),
+    ('minor_magical_dubiously_legal', './json/random_tables/minor_magical_dubiously_legal.json'),
+    ('swn_one_roll_npc', './json/random_tables/swn_one_roll_npc.json'),
+    ('wwn_appearances_and_mannerisms', './json/random_tables/wwn_appearances_and_mannerisms.json'),
+    ('wwn_burning_ambitions', './json/random_tables/wwn_burning_ambitions.json'),
+    ('oddities', './json/random_tables/oddities.json'),
+    ('wrongs_and_injustices', './json/random_tables/wrongs_and_injustices.json'),
+    ('tarot', './json/tarot.json')
+]
 
 def build():
-    chapters = load_chapter_metadata()
-    minor_magical_tools = load_minor_magical_tools()
-    minor_magical_food_and_drink = load_minor_magical_food_and_drink()
-    minor_magical_personal_items = load_minor_magical_personal_items()
-    minor_magical_entertainment = load_minor_magical_entertainment()
-    minor_magical_dubiously_legal = load_minor_magical_dubiously_legal()
-    swn_one_roll_npc = load_swn_one_roll_npc()
-    wwn_appearances_and_mannerisms = load_wwn_appearances_and_mannerisms()
-    oddities = load_oddities()
-    wrongs_and_injustices = load_wrongs_and_injustices()
-    tarot = load_tarot()
-
     template = env.get_template('./main.html')
 
-    # Render the main template with the necessary context
-    html_output = template.render(
-        chapters=chapters,
-        minor_magical_tools=minor_magical_tools,
-        minor_magical_food_and_drink=minor_magical_food_and_drink,
-        minor_magical_personal_items=minor_magical_personal_items,
-        minor_magical_entertainment=minor_magical_entertainment,
-        minor_magical_dubiously_legal=minor_magical_dubiously_legal,
-        oddities=oddities,
-        swn_one_roll_npc=swn_one_roll_npc,
-        wrongs_and_injustices=wrongs_and_injustices,
-        wwn_appearances_and_mannerisms=wwn_appearances_and_mannerisms,
-        tarot=tarot
-    )
+    data = {key: load_json(file_path) for key, file_path in file_paths}
+    html_output = template.render(**data)
 
     # Write the rendered HTML to the output file
     with open(output_file, 'w') as file:

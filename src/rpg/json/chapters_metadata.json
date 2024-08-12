@@ -32,6 +32,10 @@
             "wwn_appearances_and_mannerisms": {
                 "title": "Appearances and Mannerisms",
                 "id": "wwn_appearances_and_mannerisms"
+            },
+            "wwn_burning_ambitions": {
+                "title": "Burning Ambitions",
+                "id": "wwn_burning_ambitions"
             }
         }
     },
