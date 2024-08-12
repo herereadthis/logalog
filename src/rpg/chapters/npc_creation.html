@@ -1,4 +1,15 @@
+{% from './pieces/double_json_table.html' import render_double_json_table %}
+{% from './pieces/quad_json_table.html' import render_quad_json_table %}
+
 <section id="{{ chapters.npc_creation.id }}" epub:type="chapter" class="chapter">
     <h1 class="chapter">{{ chapter_number }}: {{ chapters.npc_creation.title }}</h1>
     <p>Your content for lorem ipsum goes here...</p>
+
+
+    {{ render_double_json_table(swn_one_roll_npc.tables.background.outcomes) }}
+    {{ render_double_json_table(swn_one_roll_npc.tables.role_in_society.outcomes) }}
+    {{ render_double_json_table(swn_one_roll_npc.tables.biggest_problem.outcomes) }}
+    {{ render_double_json_table(swn_one_roll_npc.tables.age.outcomes) }}
+    {{ render_double_json_table(swn_one_roll_npc.tables.greatest_desire.outcomes) }}
+    {{ render_quad_json_table(swn_one_roll_npc.tables.most_obvious_character_trait.outcomes) }}
 </section>

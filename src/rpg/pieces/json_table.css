@@ -3,15 +3,15 @@
     width: 100%;
 }
 
-.basic_json_table tr:first-child td {
-    border-top: 0.00625em solid #000;
+.basic_json_table .first_row td {
+    border-top: 0.0625em solid #000;
     padding-top: 0.4375em;
 }
 
 .basic_json_table td {
     border-top-width: 0;
     border-right-width: 0;
-    border-bottom: 0.00625em solid #000;
+    border-bottom: 0.0625em solid #000;
     border-left-width: 0;
     vertical-align: top;
     padding-top: 0.5em;
@@ -43,4 +43,52 @@
     font-size: 2em;
     line-height: 1;
     margin: 0;
+}
+
+.double_json_table {
+    border-collapse: collapse;
+}
+
+
+.double_json_table .first_row td {
+    border-top: 0.0625em solid #000;
+    padding-top: 0.375em;
+}
+
+.double_json_table td {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom: 0.0625em solid #000;
+    border-left-width: 0;
+    vertical-align: top;
+    padding-top: 0.5em;
+    padding-bottom: 0.375em;
+}
+
+.double_json_table td:first-child {
+    padding-left: 0.5em;
+}
+
+.double_json_table td:last-child {
+    padding-right: 0.5em;
+}
+
+.double_json_table_index {
+    padding-right: 0.5em;
+    text-align: right;
+}
+
+.double_json_table_index.second_column {
+    padding-left: 2em;
+}
+
+.double_json_table_index p {
+    font-size: 1.5em;
+    line-height: 1;
+    margin: 0;
+    font-weight: bold;
+}
+
+.double_json_table_description p {
+    margin-bottom: 0;
 }

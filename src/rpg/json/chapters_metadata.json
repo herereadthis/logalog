@@ -27,7 +27,7 @@
     },
     "trinket_generators": {
         "title": "Random Generators for Trinkets",
-        "id": 3,
+        "id": "trinket_generators",
         "sub_chapters": {
             "oddities": {
                 "title": "Starter Arcana: Oddities",
