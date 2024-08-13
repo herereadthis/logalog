@@ -25,6 +25,7 @@
         <h3 class="double_json_table_heading sans_serif">{{ swn_one_roll_npc.tables.most_obvious_character_trait.title }} ({{ swn_one_roll_npc.tables.most_obvious_character_trait.dice }})</h3>
         {{ render_quad_json_table(swn_one_roll_npc.tables.most_obvious_character_trait.outcomes) }}
     </section>
+    {% include './pieces/return_to_toc.html' %}
 
     <section>
         <h2 id="{{ chapters.npc_creation.sub_chapters.wwn_appearances_and_mannerisms.id }}" class="subchapter">{{ chapter_number }}.2: {{ chapters.npc_creation.sub_chapters.wwn_appearances_and_mannerisms.title }}</h2>
@@ -46,6 +47,7 @@
         <h3 class="double_json_table_heading sans_serif">{{ wwn_appearances_and_mannerisms.tables.visible_mannerisms.title }} ({{ wwn_appearances_and_mannerisms.tables.visible_mannerisms.dice }})</h3>
         {{ render_double_json_table(wwn_appearances_and_mannerisms.tables.visible_mannerisms.outcomes) }}
     </section>
+    {% include './pieces/return_to_toc.html' %}
 
     <section>
         <h2 id="{{ chapters.npc_creation.sub_chapters.wwn_burning_ambitions.id }}" class="subchapter">{{ chapter_number }}.2: {{ chapters.npc_creation.sub_chapters.wwn_burning_ambitions.title }}</h2>
@@ -66,6 +68,29 @@
         {{ render_double_json_table(wwn_burning_ambitions.tables.biggest_obstacle.outcomes) }}
         <h3 class="double_json_table_heading sans_serif">{{ wwn_burning_ambitions.tables.help_or_hinder.title }} ({{ wwn_burning_ambitions.tables.help_or_hinder.dice }})</h3>
         {{ render_double_json_table(wwn_burning_ambitions.tables.help_or_hinder.outcomes) }}
+    </section>
+
+    {% include './pieces/return_to_toc.html' %}
+
+    <section>
+        <h2 id="{{ chapters.npc_creation.sub_chapters.wwn_close_friendships.id }}" class="subchapter">{{ chapter_number }}.2: {{ chapters.npc_creation.sub_chapters.wwn_close_friendships.title }}</h2>
+        <p>{% if 'description' in wwn_close_friendships %}
+                {{ wwn_close_friendships.description | safe }}
+            {% endif %}
+            Source: <em>{{ wwn_close_friendships.source | safe }}</em>
+        </p>
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_close_friendships.tables.how_did_they_meet.title }} ({{ wwn_close_friendships.tables.how_did_they_meet.dice }})</h3>
+        {{ render_double_json_table(wwn_close_friendships.tables.how_did_they_meet.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_close_friendships.tables.done_together.title }} ({{ wwn_close_friendships.tables.done_together.dice }})</h3>
+        {{ render_double_json_table(wwn_close_friendships.tables.done_together.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_close_friendships.tables.harmonize_differences.title }} ({{ wwn_close_friendships.tables.harmonize_differences.dice }})</h3>
+        {{ render_double_json_table(wwn_close_friendships.tables.harmonize_differences.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_close_friendships.tables.relationship_length.title }} ({{ wwn_close_friendships.tables.relationship_length.dice }})</h3>
+        {{ render_double_json_table(wwn_close_friendships.tables.relationship_length.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_close_friendships.tables.threatens_to_divide.title }} ({{ wwn_close_friendships.tables.threatens_to_divide.dice }})</h3>
+        {{ render_double_json_table(wwn_close_friendships.tables.threatens_to_divide.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_close_friendships.tables.things_between_friends.title }} ({{ wwn_close_friendships.tables.things_between_friends.dice }})</h3>
+        {{ render_double_json_table(wwn_close_friendships.tables.things_between_friends.outcomes) }}
     </section>
 
     {% include './pieces/return_to_toc.html' %}

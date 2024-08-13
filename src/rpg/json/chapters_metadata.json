@@ -36,6 +36,10 @@
             "wwn_burning_ambitions": {
                 "title": "Burning Ambitions",
                 "id": "wwn_burning_ambitions"
+            },
+            "wwn_close_friendships": {
+                "title": "Close Friendships",
+                "id": "wwn_close_friendships"
             }
         }
     },

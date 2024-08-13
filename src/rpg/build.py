@@ -25,6 +25,7 @@ file_paths = [
     ('swn_one_roll_npc', './json/random_tables/swn_one_roll_npc.json'),
     ('wwn_appearances_and_mannerisms', './json/random_tables/wwn_appearances_and_mannerisms.json'),
     ('wwn_burning_ambitions', './json/random_tables/wwn_burning_ambitions.json'),
+    ('wwn_close_friendships', './json/random_tables/wwn_close_friendships.json'),
     ('oddities', './json/random_tables/oddities.json'),
     ('wrongs_and_injustices', './json/random_tables/wrongs_and_injustices.json'),
     ('tarot', './json/tarot.json')
