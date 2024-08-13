@@ -94,4 +94,50 @@
     </section>
 
     {% include './pieces/return_to_toc.html' %}
+
+    <section>
+        <h2 id="{{ chapters.npc_creation.sub_chapters.wwn_personal_tragedies.id }}" class="subchapter">{{ chapter_number }}.2: {{ chapters.npc_creation.sub_chapters.wwn_personal_tragedies.title }}</h2>
+        <p>{% if 'description' in wwn_personal_tragedies %}
+                {{ wwn_personal_tragedies.description | safe }}
+            {% endif %}
+            Source: <em>{{ wwn_personal_tragedies.source | safe }}</em>
+        </p>
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_personal_tragedies.tables.responsibility.title }} ({{ wwn_personal_tragedies.tables.responsibility.dice }})</h3>
+        {{ render_double_json_table(wwn_personal_tragedies.tables.responsibility.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_personal_tragedies.tables.coping.title }} ({{ wwn_personal_tragedies.tables.coping.dice }})</h3>
+        {{ render_double_json_table(wwn_personal_tragedies.tables.coping.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_personal_tragedies.tables.basic_form.title }} ({{ wwn_personal_tragedies.tables.basic_form.dice }})</h3>
+        {{ render_double_json_table(wwn_personal_tragedies.tables.basic_form.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_personal_tragedies.tables.timeline.title }} ({{ wwn_personal_tragedies.tables.timeline.dice }})</h3>
+        {{ render_double_json_table(wwn_personal_tragedies.tables.timeline.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_personal_tragedies.tables.consequences.title }} ({{ wwn_personal_tragedies.tables.consequences.dice }})</h3>
+        {{ render_double_json_table(wwn_personal_tragedies.tables.consequences.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_personal_tragedies.tables.scars.title }} ({{ wwn_personal_tragedies.tables.scars.dice }})</h3>
+        {{ render_double_json_table(wwn_personal_tragedies.tables.scars.outcomes) }}
+    </section>
+
+    {% include './pieces/return_to_toc.html' %}
+
+    <section>
+        <h2 id="{{ chapters.npc_creation.sub_chapters.wwn_troubled_romances.id }}" class="subchapter">{{ chapter_number }}.2: {{ chapters.npc_creation.sub_chapters.wwn_troubled_romances.title }}</h2>
+        <p>{% if 'description' in wwn_troubled_romances %}
+                {{ wwn_troubled_romances.description | safe }}
+            {% endif %}
+            Source: <em>{{ wwn_troubled_romances.source | safe }}</em>
+        </p>
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_troubled_romances.tables.meeting.title }} ({{ wwn_troubled_romances.tables.meeting.dice }})</h3>
+        {{ render_double_json_table(wwn_troubled_romances.tables.meeting.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_troubled_romances.tables.spark.title }} ({{ wwn_troubled_romances.tables.spark.dice }})</h3>
+        {{ render_double_json_table(wwn_troubled_romances.tables.spark.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_troubled_romances.tables.problems.title }} ({{ wwn_troubled_romances.tables.problems.dice }})</h3>
+        {{ render_double_json_table(wwn_troubled_romances.tables.problems.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_troubled_romances.tables.length.title }} ({{ wwn_troubled_romances.tables.length.dice }})</h3>
+        {{ render_double_json_table(wwn_troubled_romances.tables.length.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_troubled_romances.tables.current_issue.title }} ({{ wwn_troubled_romances.tables.current_issue.dice }})</h3>
+        {{ render_double_json_table(wwn_troubled_romances.tables.current_issue.outcomes) }}
+        <h3 class="double_json_table_heading sans_serif">{{ wwn_troubled_romances.tables.quirks.title }} ({{ wwn_troubled_romances.tables.quirks.dice }})</h3>
+        {{ render_double_json_table(wwn_troubled_romances.tables.quirks.outcomes) }}
+    </section>
+
+    {% include './pieces/return_to_toc.html' %}
 </section>
