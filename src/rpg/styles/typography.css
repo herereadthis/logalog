@@ -5,7 +5,7 @@ h1, h2, .sans_serif {
     font-family: 'Avenir Next', 'Avenir';
 }
 
-p, li, span, td, h3, h4 {
+p, li, span, td, h3,  h4 {
     font-family: Georgia;
 }
 

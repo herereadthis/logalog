@@ -1,0 +1,38 @@
+{% from './pieces/basic_json_table.html' import render_basic_json_table %}
+{% from './pieces/d50_json_table.html' import render_d50_json_table %}
+
+<section id="{{ chapters.character_creation.id }}" epub:type="chapter" class="chapter">
+    <h1 class="chapter">{{ chapter_number }}: {{ chapters.character_creation.title }}</h1>
+    <p>Your content for lorem ipsum goes here...</p>
+
+    <p epub:type="section">
+        <h2 id="{{ chapters.character_creation.sub_chapters.backstory_mistakes.id }}" class="subchapter">{{ chapter_number }}.2: {{ chapters.character_creation.sub_chapters.backstory_mistakes.title }}</h2>
+
+        <h3>Players need a catalyst</h3>
+        <p>There needs to be something that forces the hero to change by making it impossible to return to their previous life. What event has forced them into a life of adventuring? It doesn't have to be tragic, it could be some fortunate event that allows them to break some hindrance.</p>
+        <h3>Don't ignore world-building and verisimilitude</h3>
+        <p>You can't be an elf if the world doesn't have elves. Hence, character creation shouldn't be the first thing. A character that comes out of the environment is good. Don't make the character incidental to the world.</p>
+        <h3>Players should have a goal in mind</h3>
+        <p>Let the catylst help create the goal, but the goal is just the means to an end. For example, if the goal is to acquire some thing, and the thing gets destroyed, they must still go on.</p>
+        <h3>Backstory does not need to be too long or too detailed</h3>
+        <p>An excessive backstory prevents the character's arc from developing. It makes it harder for the GM to improvise things without conflicting with the backstory.</p>
+        <h3>The backstory and the character's level must be aligned</h3>
+        <p>A beginner-level character cannot be a powerful wizard.</p>
+    </section>
+
+    <section epub:type="section">
+        <h2 id="{{ chapters.character_creation.sub_chapters.wrongs_and_injustices.id }}" class="subchapter">{{ chapter_number }}.2: {{ chapters.character_creation.sub_chapters.wrongs_and_injustices.title }}</h2>
+        <p>
+            <strong>Roll a {{ wrongs_and_injustices.dice }}</strong>. 
+            {% if 'description' in wrongs_and_injustices %}
+                {{ wrongs_and_injustices.description | safe }}
+            {% endif %}
+            Source: <em>{{ wrongs_and_injustices.source | safe }}</em>
+        </p>
+        
+        <!-- Render the table with the outcomes data -->
+        {{ render_d50_json_table(wrongs_and_injustices.outcomes) }}
+    </section>
+
+    {% include './pieces/return_to_toc.html' %}
+</section>
