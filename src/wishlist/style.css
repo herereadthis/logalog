@@ -42,13 +42,17 @@ p {
     padding: 0;
 }
 
-ol li, ul li {
-    margin: 0 0 0 3.6rem;
+li {
+    margin: 0;
     padding: 0 0 0 0;
 }
 
-li li {
+ul li {
     margin-left: 2rem;
+}
+
+ol li {
+    margin-left: 3.6rem;
 }
 
 p, li, button {
