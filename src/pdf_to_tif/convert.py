@@ -56,7 +56,8 @@ def main():
                     pix = doc[page_num - 1].get_pixmap(matrix=mat, alpha=False)
                     img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
                     spread.paste(img, (j * pw, 0))
-            spread.save(f"booklet-{sheet_index:03d}-{left_global}-{right_global}.tif", compression="tiff_lzw")
+            sig_index = f"{sig_num + 1:0{len(str(num_signatures))}d}"
+            spread.save(f"booklet-{sig_index}-{sheet_index:03d}-{left_global}-{right_global}.tif", compression="tiff_lzw")
             print(f"Created booklet-{sheet_index:03d}.tif (sig {sig_num + 1}: {left_global} | {right_global})")
             sheet_index += 1
         page_offset += sig_size

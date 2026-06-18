@@ -5,6 +5,13 @@ Converts a PDF to TIFF files arranged for booklet printing.
 ## Setup
 
 ```bash
-python -m venv env
+pythons -m venv env
 source env/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+```
+
+## Usage
+
+```bash
+python convert.py <input.pdf>
+```
