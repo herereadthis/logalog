@@ -10,6 +10,7 @@
 \usepackage{array}
 \usepackage{enumitem}
 \usepackage{titlesec}
+\usepackage{tabularx} 
 \titlespacing*{\section}{0pt}{*1.5}{0pt}
 \titlespacing*{\subsection}{0pt}{*1}{0pt}
 
@@ -24,27 +25,18 @@
 Or MUNE for short
 \end{center}
 
-PDF displaying weirdly? Grab the homebrewery page here: \url{https://homebrewery.naturalcrit.com/share/rkmo0t9k4Q}
 
 \subsection*{Why play solo? How play solo?}
 
-At the end of the day, the DM is a game engine that runs the world. They set the scene, await player input, and make the game react to those actions (or lack thereof). The function of a DM is highly complex, working on multiple levels to achieve a cohesive experience.
+The DM is a game engine that runs the world. They set the scene, await player input, and make the game react to those actions (or lack thereof). The function of a DM is highly complex, working on multiple levels to achieve a cohesive experience.
 
-But what if that could be simulated? Computer games try this all the time in games like \textit{The Witcher} and \textit{Skyrim}. They do pretty good jobs at creating linear stories for their players, but they could never hope to account for all the crazy things a player does in D\&D.
+But what if that could be simulated? A computer fails because it doesn't have the creative aspect that a DM does. We can't create artificial creativity; but we can borrow it.
 
-\ldots Or could they?
+Imagine an NPC. Now change something about that NPC; maybe it's their occupation, an aspect of their appearance, a different race\ldots That NPC is no longer wholly yours. It's been modified, changed ever so slightly at the behest of someone else. This is called \textbf{\textit{second hand creativity}}, and it's the driving force of our emulated dungeon master, combined with the oracle system.
 
-Ultimately, a computer fails because it doesn't have the creative aspect that a DM does. We can't create artificial creativity; but we can borrow it.
+\section*{The Oracle System}
 
-\subsection*{Second Hand Creativity}
 
-Imagine an NPC. Now change something about that NPC; maybe it's their occupation, an aspect of their appearance, a different race\ldots That NPC is no longer wholly yours. It's been modified, changed ever so slightly at the behest of someone else.
-
-This is called second hand creativity, and it's the driving force of our emulated dungeon master, combined with the oracle system.
-
-\subsection*{The Oracle System}
-
-When we start out a campaign in D\&D, we have a couple of expectations even before any of the details have been divulged by the DM; we expect that our characters are going to start at level 1, and we expect that we're going to start in a tavern (is joke, sort of).
 
 \newsavebox{\oracletbl}
 \sbox{\oracletbl}{%
@@ -72,131 +64,51 @@ When we start out a campaign in D\&D, we have a couple of expectations even befo
 \vspace{0pt}
 This is the oracle. I can ask it questions as I would a DM. For example, I'm now going to ask if I start at level 1. I roll a 5, so Yes.
 
-I also ask if I start off in a tavern; the result is ``No, but\ldots''. I interpret this as most likely meaning that I at least start off in a populated area. I'd like to be sure, so I ask the oracle if that's the case; but this time the answer is Likely going to be yes.
-\end{minipage}
-
 \subsection*{Likelihood}
 
-If you ask a question to the oracle which is particularly Likely to return Yes, roll an extra d6 with your oracle roll and take the highest result. If the question is particularly Unlikely to return Yes, roll an extra d6 and take the lower of the two.
+If you ask a question to the oracle which is particularly Likely to return Yes, roll an extra d6 with your oracle roll and take the highest result. If the question is particularly Unlikely to return Yes, roll an extra d6 and take the lower of the two. Essentially, \textit{you apply advantage/disadvantage to the roll.}
 
-Essentially, you apply advantage/disadvantage to the roll. For example:
-\begin{itemize}[noitemsep, topsep=0pt]
-\item I ask if we start in a city, and roll two d6 because a positive result is Likely. I get a ``Yes, but\ldots''; something isn't usual about my situation.
-\item Maybe I'm not here of my own volition? I ask and receive a ``Yes, and\ldots''.
-\item I ask if I've been captured as a slave. I receive a Yes.
-\end{itemize}
+\end{minipage}
 
-In four rolls we've gone from the bland startup of meeting potential adventure patrons in a tavern, to the much more exciting hook of escaping the captivity of some slavers. It could have started a myriad of other ways; I could have been imprisoned by the guards for some reason, I could have simply been visiting the city in order to earn some coin, or I could have even started in a completely different location.
-
-That's the beauty of second hand creativity; it's all from you, but you never know where it's going to take you.
-
-\subsection*{Interventions}
+\section*{Interventions}
 
 Using the oracle system on its own is a perfectly viable way of playing solo, but there's so much more that can be added on top to provide a more fleshed out experience.
 
-One of the first things to address is DM initiative. No, not the grab-your-weapons-and-tussle type of initiative. While the oracle modifies our expectations to take us places we could never dream of, it can never truly surprise us because we're always the ones asking the questions. Interventions simulate those moments when a DM springs a trap on us, introduces a helpful NPC out of the blue, or adds another ogre to the already huge pile of enemies to defeat.
+One of the first things to address is DM initiative. While the oracle modifies our expectations to take us places we could never dream of, it can never truly surprise us because we're always the ones asking the questions. Interventions simulate those moments when a DM springs a trap on us, introduces a helpful NPC out of the blue, or adds another ogre to the already huge pile of enemies to defeat.
+
+An \textbf{entity} in the context of Interventions refers to any person or group of persons that are remotely autonomous, not simply specific NPCs and monsters. A \textbf{plot} is an unresolved story hook or thread that usually acts as a goal of some kind.
+
+Keep a list of entities and plots currently active in the adventure, adding and removing them as they become relevant or otherwise. This way you can simply roll on the list, instead of spending time asking the oracle what specific entity or plot an Intervention is referring to.
 
 Whenever a 6 is rolled on an oracle question (including secondary dice if the question is Likely/Unlikely), you gain an intervention point. Keep track of them on a piece of paper or dice.
 
 When you've gained 3 intervention points, an Intervention occurs. Reset the points to 0 and resolve the nature of the Intervention using the table below.
 
-\newsavebox{\interventiontbl}
-\sbox{\oracletbl}{%
-\begin{tabular}{|c|l|}
+\noindent\begin{tabularx}{\linewidth}{|c|X|}
 \hline
 \textbf{d6} & \textbf{Type} \\
 \hline
-1 & New entity \\
-2 & Entity positive \\
-3 & Entity negative \\
-4 & Advance plot \\
-5 & Regress plot \\
-6 & Wild \\
+1 & \textbf{New Entity:} a new entity appears. Maybe this introduction is beneficial to you, maybe not. The specifics can be gleaned from asking the oracle, with some potential help from a Portent (see below).\par\smallskip
+Continuing to use our starting scenario, some examples of a new entity might see us encountering the head slaver, a potential buyer, or even a fellow slave with a plan to escape. \\
 \hline
-\end{tabular}%
-}
+2 & \textbf{Entity Positive:} something good happens to an entity, the specifics of which can be determined by asking the oracle (with some optional help from a Portent). \\
+\hline
+3 & \textbf{Entity Negative:} something bad happens to an entity \\
+\hline
+4 & \textbf{Advance Plot.} push an unresolved hook in a forward direction, by helping a certain goal or plot point. \\
+\hline
+5 & \textbf{Regress Plot.} push an unresolved hook in a backwards direction, by hindering a certain goal or plot point. \\
+\hline
+6 & \textbf{Wild.} This is to simulate the completely unexpected. It's a catch-em-all Intervention that can be good, bad, neutral, or downright crazy. This is the option that allows for sudden twists of fate.\par\smallskip
+Because a wild Intervention is so vague in what it can represent, you kinda have to use a Portent to figure out what the heck it actually means. \\
+\hline
+\end{tabularx}
 
-\noindent
-\begin{minipage}[t]{\wd\oracletbl}
-\vspace{0pt}
-\usebox{\oracletbl}
-\end{minipage}%
-\hspace{1em}%
-\begin{minipage}[t]{\dimexpr\linewidth-\wd\oracletbl-1em\relax}
-\vspace{0pt}
-Whenever a 6 is rolled on an oracle question (including secondary dice if the question is Likely/Unlikely), you gain an intervention point. Keep track of them on a piece of paper or dice.
-
-When you've gained 3 intervention points, an Intervention occurs. Reset the points to 0 and resolve the nature of the Intervention using the table below.
-\end{minipage}
-
-\textbf{New Entity.} A new entity appears. Maybe this introduction is beneficial to you, maybe not. The specifics can be gleaned from asking the oracle, with some potential help from a Portent (see below).
-
-Continuing to use our starting scenario, some examples of a new entity might see us encountering the head slaver, a potential buyer, or even a fellow slave with a plan to escape.
-
-\subsection*{Entities and Plots}
-
-It can help to keep a list of entities and plots currently active in the adventure, adding and removing them as they become relevant or otherwise. This way you can simply roll on the list, instead of spending time asking the oracle what specific entity or plot an Intervention is referring to.
-
-Below are some helpful definitions of what the two of them actually are:
-
-An entity in the context of Interventions refers to any person or group of persons that are remotely autonomous, not simply specific NPCs and monsters. An entity might be:
-\begin{itemize}[noitemsep, topsep=0pt]
-\item Old Jeph, the captain of the ship you hired.
-\item The elemental storming the king's castle.
-\item The town guards.
-\item A hooded stranger who's been stalking the party.
-\end{itemize}
-
-A plot is an unresolved story hook or thread that usually acts as a goal of some kind. A plot might be:
-\begin{itemize}[noitemsep, topsep=0pt]
-\item Discover the location of the lich's tomb.
-\item Pay off a debt to a dangerous crime lord.
-\item The seige of the town you're currently residing in.
-\item Resurrect a fallen friend.
-\end{itemize}
-
-\textbf{Entity Positive/Entity Negative.} Something good or bad happens to an entity, the specifics of which can be determined by asking the oracle (with some optional help from a Portent).
-
-Again using our starting scenario as an example, some entity positives might include:
-\begin{itemize}[noitemsep, topsep=0pt]
-\item Slavers: A top-paying slave owner is visiting town, looking to buy.
-\item Town guard: The guardsman at the town gates threatens to report the slavers for excessive cruelty, unless he's payed a ``blind-eye'' fee.
-\item Player character: You pass by a butcher's market stall, upon which lies an easily swipable carving knife.
-\end{itemize}
-
-Some entity negatives might include:
-\begin{itemize}[noitemsep, topsep=0pt]
-\item Player character: The journey to the village has worn you out, giving you one level of exhaustion.
-\item Player character: You are targeted by a whip attack from a slave driver.
-\item Town guard: A slave attempts and fails to steal a weapon from a guard, causing a commotion.
-\end{itemize}
-
-\textbf{Advance Plot/Regress Plot.} Advancing a plot pushes an unresolved hook in a certain direction. An example of advancing a plot using the starting scenario might see the player rescued by a group of freedom fighters, and a plot regression might involve the player character being sold to a high-ranking city official.
-
-A plot advancement or regression should always help the adventure progress, but it does so by either helping or hindering a certain goal or plot point.
-
-\textbf{Wild.} This is to simulate the completely unexpected. It's a catch-em-all Intervention that can be good, bad, neutral, or downright crazy. This is the option that allows for sudden twists of fate, such as a dragon swooping down to attack the village and allowing the slaves to escape in the ensuing chaos.
-
-Because a wild Intervention is so vague in what it can represent, you kinda have to use a Portent to figure out what the heck it actually means. Which brings us nicely to\ldots
-
-\subsection*{Portents}
+\section*{Portents}
 
 A portent is essentially inspiration. It's a two word (or more) sentence that acts as a springboard for the imagination. Maybe you've got no clue what a particular Intervention should be, or maybe you've exhausted your ideas for why an NPC pulled you aside for an urgent chat. That's the time to use a Portent.
 
-Any random word generator will suffice for this. There are tonnes of these online (\url{https://wordcounter.net/random-word-generator}). I generally have a two-word generation limit, because I find that any more starts to get kinda messy, but you do you.
-
-For an example, in our starting scenario a wild Intervention would require a Portent to figure out. The words I receive are ``frail'' and ``jobbed''. This could mean a bunch of things, so I get the oracle to narrow things down for me.
-\begin{itemize}[noitemsep, topsep=0pt]
-\item I ask if a fellow slave looking very sickly approaches me for help; the answer is No.
-\item I ask if I get put to work doing a simple and easy job; No, but\ldots
-\item Maybe I'm sold to a weak, elderly owner? Yes.
-\end{itemize}
-
-Portents can sometimes be quite specific in what they're referring to, but this is the exception rather than the norm. Most of the time the word combinations will be too random to directly apply, so instead you have to use them as a guide for your imagination.
-
-For instance, say I use a Portent to help me figure out what kind of monster I've encountered in a dungeon. I receive ``delved'' and ``plutonium''. The former immediately makes me think of a dwarf (or duergar), but plutonium is a little harder to directly fit into my D\&D world. However, it \textit{does} make me think of scientists and experimentation, which leads me to imagine a \textbf{dwarven artificer.}
-
-It helps to think of Portents as a game of charades, where the word you're trying to guess equates to how the Portent fits within the context of the scenario.
+Most of the time the word combinations will be too random to directly apply, so instead you have to use them as a guide for your imagination. It helps to think of Portents as a game of charades, where the word you're trying to guess equates to how the Portent fits within the context of the scenario.
 
 \subsection*{NPC Interactions}
 
@@ -220,21 +132,29 @@ Assuming the NPC stops to talk, the topic of their conversation can be decided b
 
 \section*{Optimising Play}
 
-After playing solo for just over three years, across countless campaigns and two settings, I've found that there are a few things that can speed up and amplify the solo experience.
+There are a few things that can speed up and amplify the solo experience.
 
-\subsection*{Automated character sheets}
+\begin{itemize}
+\item \textit{\textbf{Automated character sheets:}} Some people prefer the physical nature of a good ol' pencil and paper, but I urge anyone attempting to play solo to at least give an electronic sheet a try.
 
-Seriously, I don't know how I'd be able to play without them. Some people prefer the physical nature of a good ol' pencil and paper, but I urge anyone attempting to play solo to at least give an electronic sheet a try.
+\item \textit{\textbf{Three strikes and you're out:}} When using the oracle system, a maze of ands and buts can bog down the flow of the game. After 2 rolls on the oracle that result in an and/but answer, the 3rd roll ignores those modifiers and simply becomes yes/no.
 
-\subsection*{Three strikes and you're out}
+\item \textit{\textbf{Three strikes and you're out:}} When using the oracle system, a maze of ands and buts can bog down the flow of the game. After 2 rolls on the oracle that result in an and/but answer, the 3rd roll ignores those modifiers and simply becomes yes/no.
 
-When using the oracle system it can be quite easy to lose yourself in a maze of ands and buts, which can bog down the flow of the game. A good rule to use is that after 2 rolls on the oracle that result in an and/but answer, the 3rd roll ignores those modifiers and simply becomes yes/no.
+\item \textit{\textbf{Ignoring the MUNE:}} Solo play requires a balance of sticking to the rules and knowing when to throw stuff out. Sometimes, Interventions and Portents make zero sense within the context of the current adventure; the solution: Ignore them or generate another.
 
-\subsection*{Ignoring the MUNE}
+These systems aren't infallable, after all; they're a bunch of random generators that you're using to build a cohesive and logical game.
+\end{itemize}
 
-Solo play requires a balance of sticking to the rules and knowing when to throw stuff out. Sometimes nothing springs to mind for the nature of an Intervention, and Portents can often make zero sense within the context of the current adventure. The solution to this is rather simple: Ignore them.
 
-These systems aren't infallable, after all; they're a bunch of random generators that you're using to build a cohesive and logical game. If you get an Intervention that truly doesn't make sense, treat it as though it never occurred. If a Portent is too obscure to find inspiration from, simply generate another.
+
+
+
+
+\subsection*{}
+
+
+
 
 \subsection*{Subverting expectations}
 
@@ -305,6 +225,77 @@ I ask the Oracle if anything about the scene is not as expected, receive a Yes, 
 
 This can actually be used to add a twist to modules, too. Simply by reading through a scene or room and asking ``is everything as the module says?'' can lead to a vastly different experience to what's on the paper.
 
+\section*{Sample Play}
+
+\subsection*{Oracle}
+
+When we start out a campaign, we have a couple of expectations even before any of the details have been divulged by the DM; we expect that our characters are going to start at level 1, and we expect that we're going to start in a tavern.
+
+I also ask if I start off in a tavern; the result is ``No, but\ldots''. I interpret this as most likely meaning that I at least start off in a populated area. I'd like to be sure, so I ask the oracle if that's the case; but this time the answer is Likely going to be yes.
+
+\begin{itemize}[noitemsep, topsep=0pt]
+\item I ask if we start in a city, and roll two d6 because a positive result is Likely. I get a ``Yes, but\ldots''; something isn't usual about my situation.
+\item Maybe I'm not here of my own volition? I ask and receive a ``Yes, and\ldots''.
+\item I ask if I've been captured as a slave. I receive a Yes.
+\end{itemize}
+
+In four rolls we've gone from the bland startup of meeting potential adventure patrons in a tavern, to the much more exciting hook of escaping the captivity of some slavers. It could have started a myriad of other ways; I could have been imprisoned by the guards for some reason, I could have simply been visiting the city in order to earn some coin, or I could have even started in a completely different location.
+
+That's the beauty of second hand creativity; it's all from you, but you never know where it's going to take you.
+
+\subsection*{Intervention}
+
+\textbf{An entity might be:}
+\begin{itemize}[noitemsep, topsep=0pt]
+\item Old Jeph, the captain of the ship you hired.
+\item The elemental storming the king's castle.
+\item The town guards.
+\item A hooded stranger who's been stalking the party.
+\end{itemize}
+
+\textbf{2, Entity Positive:}
+\begin{itemize}[noitemsep, topsep=0pt]
+\item Slavers: A top-paying slave owner is visiting town, looking to buy.
+\item Town guard: The guardsman at the town gates threatens to report the slavers for excessive cruelty, unless he's payed a ``blind-eye'' fee.
+\item Player character: You pass by a butcher's market stall, upon which lies an easily swipable carving knife.
+\end{itemize}
+
+\noindent\textbf{3, Entity Negative:}
+\begin{itemize}[noitemsep, topsep=0pt]
+\item Player character: The journey to the village has worn you out, giving you one level of exhaustion.
+\item Player character: You are targeted by a whip attack from a slave driver.
+\item Town guard: A slave attempts and fails to steal a weapon from a guard, causing a commotion.
+\end{itemize}
+
+\noindent\textbf{4, Advance Plot:}
+\begin{itemize}[noitemsep, topsep=0pt]
+\item the player rescued by a group of freedom fighters
+\item Discover the location of the lich's tomb.
+\item Pay off a debt to a dangerous crime lord.
+\item Resurrect a fallen friend.
+\end{itemize}
+
+
+\noindent\textbf{5, Regress Plot:}
+\begin{itemize}[noitemsep, topsep=0pt]
+\item layer character being sold to a high-ranking city official
+\item The seige of the town you're currently residing in.
+\end{itemize}
+
+\noindent\textbf{6, Wild:}
+\begin{itemize}[noitemsep, topsep=0pt]
+\item A dragon swooping down to attack the village and allowing the slaves to escape in the ensuing chaos.
+\end{itemize}
+
+A wild Intervention would require a Portent to figure out. The words I receive are ``frail'' and ``jobbed''. This could mean a bunch of things, so I get the oracle to narrow things down for me.
+\begin{itemize}[noitemsep, topsep=0pt]
+\item I ask if a fellow slave looking very sickly approaches me for help; the answer is No.
+\item I ask if I get put to work doing a simple and easy job; No, but\ldots
+\item Maybe I'm sold to a weak, elderly owner? Yes.
+\end{itemize}
+
+For instance, say I use a Portent to help me figure out what kind of monster I've encountered in a dungeon. I receive ``delved'' and ``plutonium''. The former immediately makes me think of a dwarf (or duergar), but plutonium is a little harder to directly fit into my D\&D world. However, it \textit{does} make me think of scientists and experimentation, which leads me to imagine a \textbf{dwarven artificer.}
+
 \section*{Final words}
 
 There's no right or wrong way to play D\&D, so long as you're having fun (and not encroaching on someone else's). These are simply guidelines, they're one man's way of playing. You play how you want, with who you want.
@@ -312,6 +303,8 @@ There's no right or wrong way to play D\&D, so long as you're having fun (and no
 And most importantly; like, subscribe, smash that paranormal activity button\ldots
 
 \section*{Further reading}
+
+Grab the homebrewery page here: \url{https://homebrewery.naturalcrit.com/share/rkmo0t9k4Q}
 
 Want to check out a transcript of a typical session using MUNE? There are some links here\ldots You can follow them, if you wish. If you do not wish, then you should probably get your genie gland checked out by a doctor.
 \begin{itemize}
