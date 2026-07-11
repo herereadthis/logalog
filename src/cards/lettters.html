@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Letters</title>
+<style>
+  body { margin: 2rem; }
+  .row { margin: 0.5rem 0; }
+</style>
+</head>
+<body>
+<style>
+body {
+    padding: 0;
+    margin: 0;
+}
+  @page {
+    size: letter landscape;
+    margin: 0.25in;
+  }
+</style>
+<script>
+  const fontStyles = [
+    {
+      fontFamily: '"Big Caslon", "Big Caslon Medium", serif',
+      fontSize: '1.6rem',
+      letterSpacing: '0.10em',
+      marginBottom: '2rem',
+    },
+    {
+      fontFamily: '"LMRoman4", "Latin Modern Roman", serif',
+      fontSize: '1.6rem',
+      letterSpacing: '0.05em',
+      marginBottom: '2rem',
+    },
+    {
+      fontFamily: '"Gill Sans", "Gill Sans MT", sans-serif',
+      fontSize: '1.6rem',
+      letterSpacing: '0.15em',
+      marginBottom: '2rem',
+    },
+  ];
+
+  const applyStyle = (el, style) => {
+    for (const [key, value] of Object.entries(style)) {
+      el.style[key] = value;
+    }
+  };
+
+  const upper = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'].join(' ');
+  const lower = [...'abcdefghijklmnopqrstuvwxyz'].join(' ');
+  const nums  = [...'12345678901234567890'].join(' ') + ' ! ? ! ? . , : ; \' " -';
+
+  const rows = [upper, upper, lower, lower, lower, nums];
+
+  for (const style of fontStyles) {
+    const section = document.createElement('section');
+    applyStyle(section, style);
+    for (const text of rows) {
+      const div = document.createElement('div');
+      div.className = 'row';
+      div.textContent = text;
+      section.appendChild(div);
+    }
+    document.body.appendChild(section);
+  }
+</script>
+</body>
+</html>
